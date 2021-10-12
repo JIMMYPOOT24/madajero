@@ -1,0 +1,212 @@
+/**************************** NavBar ******************************/
+
+nav{
+    font-size: 15px;
+    text-decoration-color: #FFFFFF;
+}
+
+.navbar a{
+  margin-right: 10px;
+}
+
+.navbar a:hover{
+  border-bottom: 2px solid #FFFFFF;
+
+}
+/* .active a{
+  border-bottom: 2px solid #FFFFFF;
+} */
+/**************************** !NavBar ******************************/
+.titulo h1{
+    font: 40px;
+    color: #996633;
+    text-align-last: center;
+}
+
+.subtitulo h2{
+    font: 30px;
+    color: #402E32;   
+    text-align-last: center;
+}
+.subtitulo2 h3 {
+	color: #F2962F;
+	font: 30px;
+}
+.parrafo p{
+    font: 20px;
+    color: #402E32;
+}
+.justify{
+  text-align: justify;
+}
+
+.fondoClaro{
+    background-color: #FFFFFF;
+}
+
+.fondoGriss{
+    background-color: #F7F7F7;
+}
+
+.banner-image h1{
+	font-size: 40px;
+    color: #FFFFFF;
+    text-align-last: center;    
+}
+
+.banner-text h3{
+	color: #996633;	
+	font-size: 40px;
+}
+
+.banner-text p{
+	color: #402E32;
+	font-size: 65px;
+}
+
+.gallery{
+	padding: 70px 0;
+}
+.gallery img{
+
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+/* estilo del boton */
+.btn-main {
+	background: #F2962F;
+	border: 2px solid #F2962F;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 12px 40px;
+	text-transform: uppercase;
+	border-radius: 40px;
+  }
+
+  .single-page-header {
+	background-image: url("../img/fondos/fondo-nosotros-home.jpg");
+	background-size: cover;
+	padding: 140px 0 70px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+  }
+
+  /* counter */
+
+.contador-home{
+	background: #402E32;
+}
+.contador-home h1{
+	color: #ffffff;
+}
+
+.counters-item {
+	background-color: #402E32;
+    padding-bottom: 30px;
+    color: #fff;
+    position: relative;
+  }
+  
+.counters-item.kill-border:before {
+    background: none;
+  }
+  
+.counters-item:before {
+    background: #fff;
+    content: "";
+    margin-top: -27.5px;
+    height: 55px;
+    width: 1px;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+  }
+  
+.counters-item > div {
+    margin: 6px 0;
+  }
+  
+.counters-item span {
+    display: inline;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  
+.counters-item i {
+    font-size: 40px;
+    display: inline-block;
+    color: #fff;
+  }
+  
+.counters-item h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+  }
+
+  /* servicios_home */
+
+  .service-border {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #F2962F;
+    
+  }
+
+  .client-logo {
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    margin-top: 15px;
+    margin-right: 2px;
+  }
+
+
+
+
+
+
+/************************ Pestaña de servicios **************************/
+.servicios img{
+	padding: 10px;
+}
+.servicios h2{
+	color: #F2962F;
+	padding: 8px;
+}
+.servicios p{
+	color: #402E32;
+	font-size: 20px;
+}
+/************************ !Pestaña de servicios **************************/
+
+/**************************** footer ******************************/
+footer{
+    background-color: #f7f7f7;
+}
+footer h5{
+	color: #996633;
+} 
+footer ul{
+	color: #402E32;
+	font-size: 18px;
+} 
+.iconos i{
+	font-size: 28px;
+	color: #996633;
+} 
+.footer-copyright{
+    background-color: #402e32;
+	color: #F2962F;
+}
+/**************************** !footer ******************************/
