@@ -1,43 +1,31 @@
 /**************************** NavBar ******************************/
-
 nav{
-    font-size: 15px;
-    text-decoration-color: #FFFFFF;
-}
-
-.navbar a{
-  margin-right: 10px;
-}
-
-.navbar a:hover{
-  border-bottom: 2px solid #FFFFFF;
-
-}
-/* .active a{
-  border-bottom: 2px solid #FFFFFF;
-} */
+    font-size: px;
+    color: #FFFFFF;
+    font-family: 'Avenir LT Std', sans-serif;       
+}   
 /**************************** !NavBar ******************************/
+
+/**************************** home ******************************/
 .titulo h1{
     font: 40px;
     color: #996633;
     text-align-last: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 .subtitulo h2{
     font: 30px;
     color: #402E32;   
     text-align-last: center;
+    font-family: 'Avenir LT Std', sans-serif;                                                
 }
-.subtitulo2 h3 {
-	color: #F2962F;
-	font: 30px;
-}
+
 .parrafo p{
-    font: 20px;
+    font-size: 20px;
     color: #402E32;
-}
-.justify{
-  text-align: justify;
+    font-family: 'Avenir LT Std', sans-serif;                                             
 }
 
 .fondoClaro{
@@ -52,31 +40,28 @@ nav{
 	font-size: 40px;
     color: #FFFFFF;
     text-align-last: center;    
+    font-family: 'Avenir LT Std', sans-serif;
 }
 
 .banner-text h3{
 	color: #996633;	
 	font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+.banner-text h2{
+	  font: 20px;
+    color: #402E32;
+    font-family: 'Avenir LT Std', sans-serif;
 }
 
-.banner-text p{
-	color: #402E32;
-	font-size: 65px;
+.servicios-text h4{
+    font: 20;
+    color: #402E32;
+    font-family: 'Avenir LT Std', sans-serif;
 }
 
-.gallery{
-	padding: 70px 0;
-}
-.gallery img{
 
-	padding: 15px;
-	width: 100%;
-	box-shadow: 0 0 15px rgba(0,0,0,0.3);
-	cursor: pointer;
-}
-#gallery-modal .modal-img{
-	width: 100%;
-}
 /* estilo del boton */
 .btn-main {
 	background: #F2962F;
@@ -86,20 +71,13 @@ nav{
 	font-size: 14px;
 	letter-spacing: 1px;
 	padding: 12px 40px;
-	text-transform: uppercase;
+	
 	border-radius: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   }
-
-  .single-page-header {
-	background-image: url("../img/fondos/fondo-nosotros-home.jpg");
-	background-size: cover;
-	padding: 140px 0 70px;
-	text-align: center;
-	color: #fff;
-	position: relative;
-  }
-
-  /* counter */
+ 
+/* counter */
 
 .contador-home{
 	background: #402E32;
@@ -153,6 +131,22 @@ nav{
     color: #fff;
   }
 
+   /* galeria_home */
+  .gallery{
+    padding: 70px 0;
+  }
+  .gallery img{
+  
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+    width: 100%;
+    height: 20em;
+  }
+  #gallery-modal .modal-img{
+    width: 100%;
+  }
+
   /* servicios_home */
 
   .service-border {
@@ -160,46 +154,160 @@ nav{
     width: 150px;
     border-radius: 50%;
     border: 4px solid #F2962F;
-    
+    background-color: #FFFFFF;
   }
 
   .client-logo {
-    height: 100px;
+    height: 100%;
     width: 100px;
-    align-content: center;
     margin-top: 15px;
-    margin-right: 2px;
+    margin-left: 0px;    
   }
 
+  .centrarob {
+    margin: auto;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .centrarobgen {
+    margin: auto;
+    text-align: center;
+  }
+
+  .alibotonser {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .aliboton {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .secserp {
+    padding-top: 1;
+  }
+
+   /* clientes-home */
+  .clientes-h{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /**************************** !Home******************************/
+
+  /* pestaña nosotros */
+
+  .caja {
+    position: relative;
+    width: 100%;
+    height: px;
+  }
+
+  .textoimagen {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 5%;
+    color: #fff;
+    padding-top: 10%;
+  }
+
+  .textoimagenexp {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 50%;
+    color: #fff;
+  }
+  
+  .single-page-header {
+    background-image: url("../img/fondos/fondo-nosotros-home.jpg");
+    background-size: cover;
+    padding: 140px 0 70px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    }
+     /* !pestaña nosotros */
 
 
+     /* pestaña servicios */
+     .subtitulo-servicios h3 {
+      color: #F2962F;
+      font: 30px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+    }
 
+     .parrafo-servicios p{
+      font-size: 20px;
+      color: #402E32;
+      font-family: 'Avenir LT Std', sans-serif;                                             
+    }
+    
+    /*-- Services list--*/
+      .services .icon-box {
+        margin-bottom: 20px;
+        padding: 30px;
+        border-radius: 6px;
+        transition: 0.3s;
+      }
+      .services img{
+        height: 80px;
+        vertical-align: middle;
+        float:left; 
+      }
+      .services .icon-box:hover {
+        background: #e9e9e9;
+      }
+      
+      .services .icon-box h4{
+        color: #F2962F;
+        transition: 0.3s;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        margin-left: 70px;
+        margin-bottom: 15px;
+        
 
+      }
+      .services .icon-box p {
+        color: #402E32;
+        font-size: 20px;
+        margin-left: 80px;
+        line-height: 30px;
+        font-family: 'Avenir LT Std', sans-serif; 
+        
+      }
+      /*-- !Services list--*/
 
-/************************ Pestaña de servicios **************************/
-.servicios img{
-	padding: 10px;
-}
-.servicios h2{
-	color: #F2962F;
-	padding: 8px;
-}
-.servicios p{
-	color: #402E32;
-	font-size: 20px;
-}
-/************************ !Pestaña de servicios **************************/
+    /* !pestaña servicios */
+  
 
 /**************************** footer ******************************/
 footer{
-    background-color: #f7f7f7;
+    background-color: #F7F7F7;
 }
 footer h5{
 	color: #996633;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 } 
 footer ul{
 	color: #402E32;
 	font-size: 18px;
+  font-family: 'Avenir LT Std', sans-serif;
+  font-weight: lighter;
 } 
 .iconos i{
 	font-size: 28px;
@@ -207,6 +315,8 @@ footer ul{
 } 
 .footer-copyright{
     background-color: #402e32;
-	color: #F2962F;
+	  color: #F2962F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 /**************************** !footer ******************************/

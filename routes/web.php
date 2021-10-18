@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\serviciosController;
+use App\Http\Controllers\proyectosController;
+use App\Http\Controllers\contactanosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +29,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::get('/', HomeController::class)->name('index');
 Route::get('/nosotros', [AboutController::class, 'about'])->name('nosotros');
+Route::get('/servicios', [serviciosController::class, 'index'])->name('servicios');
+Route::get('/proyectos', [proyectosController::class, 'index'])->name('proyectos');
+Route::get('/contactanos', [contactanosController::class, 'index'])->name('contactanos');

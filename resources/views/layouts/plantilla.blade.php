@@ -38,13 +38,13 @@
             <a class="link nav-link text-white text-center fs-5" href="{{route('nosotros')}}">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="link nav-link text-white text-center fs-5" href="{{url('services')}}">Servicios</a>
+            <a class="link nav-link text-white text-center fs-5" href="{{route('servicios')}}">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="link nav-link text-white text-center fs-5" href="{{url('proyect')}}">Proyectos</a>
+            <a class="link nav-link text-white text-center fs-5" href="{{route('proyectos')}}">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="link nav-link text-white text-center fs-5" href="{{url('contact')}}">Contáctanos</a>
+            <a class="link nav-link text-white text-center fs-5" href="{{route('contactanos')}}">Contáctanos</a>
           </li>
         </ul>
       </div>
