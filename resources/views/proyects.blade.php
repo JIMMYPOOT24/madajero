@@ -1,12 +1,12 @@
 @extends('layouts.plantilla')
-@section('title', 'Madajero | Inicio')
+@section('title', 'Madajero | Proyectos')
 
 @section('contenido')
 
 
 <style>
    .banner-image {
-     background-image: url('img/fondos/fondo-servicios.jpg');
+     background-image: url('img/fondos/fondo-proyectos.jpg');
      background-size: cover;
    }
  </style>

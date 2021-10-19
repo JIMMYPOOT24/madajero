@@ -1,323 +1,383 @@
 /**************************** NavBar ******************************/
 nav{
-    font-size: px;
-    color: #FFFFFF;
-    font-family: 'Avenir LT Std', sans-serif;       
+  font-size: px;
+  color: #FFFFFF;
+  font-family: 'Avenir LT Std', sans-serif;       
 }   
 /**************************** !NavBar ******************************/
 
 /**************************** home ******************************/
 .titulo h1{
-    font: 40px;
-    color: #996633;
-    text-align-last: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+  font: 40px;
+  color: #996633;
+  text-align-last: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .subtitulo h2{
-    font: 30px;
-    color: #402E32;   
-    text-align-last: center;
-    font-family: 'Avenir LT Std', sans-serif;                                                
+  font: 30px;
+  color: #402E32;   
+  text-align-last: center;
+  font-family: 'Avenir LT Std', sans-serif;                                                
 }
 
 .parrafo p{
-    font-size: 20px;
-    color: #402E32;
-    font-family: 'Avenir LT Std', sans-serif;                                             
+  font-size: 20px;
+  color: #402E32;
+  font-family: 'Avenir LT Std', sans-serif;                                             
 }
 
 .fondoClaro{
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .fondoGriss{
-    background-color: #F7F7F7;
+  background-color: #F7F7F7;
 }
 
 .banner-image h1{
-	font-size: 40px;
-    color: #FFFFFF;
-    text-align-last: center;    
-    font-family: 'Avenir LT Std', sans-serif;
+font-size: 40px;
+  color: #FFFFFF;
+  text-align-last: center;    
+  font-family: 'Avenir LT Std', sans-serif;
 }
 
 .banner-text h3{
-	color: #996633;	
-	font-size: 40px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
+color: #996633;	
+font-size: 40px;
+font-family: 'Raleway', sans-serif;
+font-weight: bolder;
 }
 .banner-text h2{
-	  font: 20px;
-    color: #402E32;
-    font-family: 'Avenir LT Std', sans-serif;
+  font: 30px;
+  color: #402E32;
+  font-family: 'Avenir LT Std', sans-serif;
 }
 
 .servicios-text h4{
-    font: 20;
-    color: #402E32;
-    font-family: 'Avenir LT Std', sans-serif;
+  font: 20;
+  color: #402E32;
+  text-align: justify;
+  font-family: 'Avenir LT Std', sans-serif;
 }
 
 
 /* estilo del boton */
 .btn-main {
-	background: #F2962F;
-	border: 2px solid #F2962F;
-	color: #fff;
-	display: inline-block;
-	font-size: 14px;
-	letter-spacing: 1px;
-	padding: 12px 40px;
-	
-	border-radius: 40px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  }
- 
+background: #F2962F;
+border: 2px solid #F2962F;
+color: #fff;
+display: inline-block;
+font-size: 14px;
+letter-spacing: 1px;
+padding: 12px 40px;
+border-radius: 40px;
+
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+}
+
 /* counter */
 
 .contador-home{
-	background: #402E32;
+background: #402E32;
 }
 .contador-home h1{
-	color: #ffffff;
+color: #ffffff;
 }
 
 .counters-item {
-	background-color: #402E32;
-    padding-bottom: 30px;
-    color: #fff;
-    position: relative;
-  }
-  
+background-color: #402E32;
+  padding-bottom: 30px;
+  color: #fff;
+  position: relative;
+}
+
 .counters-item.kill-border:before {
-    background: none;
-  }
-  
+  background: none;
+}
+
 .counters-item:before {
-    background: #fff;
-    content: "";
-    margin-top: -27.5px;
-    height: 55px;
-    width: 1px;
-    position: absolute;
-    right: -15px;
-    top: 50%;
-  }
-  
+  background: #fff;
+  content: "";
+  margin-top: -27.5px;
+  height: 55px;
+  width: 1px;
+  position: absolute;
+  right: -15px;
+  top: 50%;
+}
+
 .counters-item > div {
-    margin: 6px 0;
-  }
-  
+  margin: 6px 0;
+}
+
 .counters-item span {
-    display: inline;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 50px;
-  }
-  
+  display: inline;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
 .counters-item i {
-    font-size: 40px;
-    display: inline-block;
-    color: #fff;
-  }
-  
+  font-size: 40px;
+  display: inline-block;
+  color: #fff;
+}
+
 .counters-item h3 {
-    font-size: 18px;
-    margin: 0;
-    color: #fff;
-  }
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+}
+.centrarCounter {
+  margin: auto;
+  text-align: center;
+}
 
-   /* galeria_home */
-  .gallery{
-    padding: 70px 0;
-  }
-  .gallery img{
-  
-    padding: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
-    cursor: pointer;
-    width: 100%;
-    height: 20em;
-  }
-  #gallery-modal .modal-img{
-    width: 100%;
-  }
+ /* galeria_home */
+.gallery{
+  padding: 70px 0;
+}
+.gallery img{
 
-  /* servicios_home */
+  padding: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+  width: 100%;
+  height: 20em;
+}
+#gallery-modal .modal-img{
+  width: 100%;
+}
 
-  .service-border {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 4px solid #F2962F;
-    background-color: #FFFFFF;
-  }
+/* servicios_home */
+#servicios-home .icon-boxes {
+  margin-top: 50px;
+}
 
-  .client-logo {
-    height: 100%;
-    width: 100px;
-    margin-top: 15px;
-    margin-left: 0px;    
-  }
+#servicios-home .icon-box {
+  padding: 15px 5px;
+  height: auto;
+  width: 150px;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  border-radius: 100%;
+  border: 4px solid #F2962F;
+  background-color: #fff;
+  display: inline-flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
 
-  .centrarob {
-    margin: auto;
-    margin-left: 10%;
-    text-align: center;
-  }
+.client-services {
+  margin-top: 20px;
+  height: 80px;
+}
+.alibotonser {
+padding-top: 20px;
+padding-bottom: 50px;
+margin: auto;
+text-align: center;
+}
 
-  .centrarobgen {
-    margin: auto;
-    text-align: center;
-  }
-
-  .alibotonser {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    margin: auto;
-    text-align: center;
-  }
-
-  .aliboton {
-    padding-top: 40px;
-    padding-bottom: 50px;
-    margin: auto;
-    text-align: center;
-  }
-
-  .secserp {
-    padding-top: 1;
-  }
-
-   /* clientes-home */
-  .clientes-h{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  /**************************** !Home******************************/
-
-  /* pestaña nosotros */
-
-  .caja {
-    position: relative;
-    width: 100%;
-    height: px;
-  }
-
-  .textoimagen {
-    position: absolute;
-    top: 10px;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 5%;
-    color: #fff;
-    padding-top: 10%;
-  }
-
-  .textoimagenexp {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 5%;
-    margin-top: 50%;
-    color: #fff;
-  }
-  
-  .single-page-header {
-    background-image: url("../img/fondos/fondo-nosotros-home.jpg");
-    background-size: cover;
-    padding: 140px 0 70px;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    }
-     /* !pestaña nosotros */
+.centrarob {
+  margin-top: 25px;
+  text-align: center;
+}
+.aliboton {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+}
 
 
-     /* pestaña servicios */
-     .subtitulo-servicios h3 {
-      color: #F2962F;
-      font: 30px;
-      font-family: 'Raleway', sans-serif;
-      font-weight: bold;
+ /* clientes-home */
+.clientes-h{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/**************************** !Home******************************/
+
+    /* pestaña nosotros */
+    .textMisionVision h1 {
+      text-align: center;
+      color: #F7F7F7;
     }
 
-     .parrafo-servicios p{
-      font-size: 20px;
-      color: #402E32;
-      font-family: 'Avenir LT Std', sans-serif;                                             
+    .centrarPDF {
+      margin: auto;
+      text-align: center;
+    }
+  
+    .section-sm {
+      padding: 70px 0;
+    }
+  
+    .bg-gray {
+      background: #f9f9f9;
+    }
+  
+    .call-to-action {
+      padding: 100px 0;
+      background-image: url("../img/fondos/fondo-nosotros-home.jpg");
+      background-size: cover;
+      color: #fff;
     }
     
-    /*-- Services list--*/
-      .services .icon-box {
-        margin-bottom: 20px;
-        padding: 30px;
-        border-radius: 6px;
-        transition: 0.3s;
-      }
-      .services img{
-        height: 80px;
-        vertical-align: middle;
-        float:left; 
-      }
-      .services .icon-box:hover {
-        background: #e9e9e9;
+    .call-to-action h2 {
+      line-height: 1.5;
+    }
+    
+    .call-to-action p {
+      color: #fff;
+    }
+  
+    .icon-pdf {
+      height: 70px;
+      padding-right: 30px;
+    }
+  
+    .bordi {
+      border-bottom-right-radius: 15% ;
+      border-top-right-radius: 15%;
+    }
+  
+      /* card */
+  
+  
+      .card {
+        perspective: 150rem;
+        position: relative;
+        height: 400px;
+        width: 522px;
+        margin: 1rem;
+        border-radius: 4%;
+        background: none;
       }
       
-      .services .icon-box h4{
-        color: #F2962F;
-        transition: 0.3s;
-        font-size: 30px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-        margin-left: 70px;
-        margin-bottom: 15px;
-        
-
+      .card-side {
+        height: 35rem;
+        border-radius: 15px;
+        transition: all 0.8s ease;
+        backface-visibility: hidden;
+        position: absolute;
+        width: 100%;
+        padding:2rem;
+        color: white
       }
-      .services .icon-box p {
-        color: #402E32;
-        font-size: 20px;
-        margin-left: 80px;
-        line-height: 30px;
-        font-family: 'Avenir LT Std', sans-serif; 
-        
+      
+      .card-side.back {
+        transform: rotateY(-180deg);
+        background-color: #402E32;
+        color: #FFFFFF;
+        height: 400px;
+        width: 522px;
+        background-image: url("");
+        text-align: justify;
       }
-      /*-- !Services list--*/
+      
+      .card-side.front {
+        background-color: #996633;
+        background-image: url("");
+        height: 400px;
+        width: 522px;
+      }
+      
+      .card:hover .card-side.front {
+        transform: rotateY(180deg);
+      }
+      
+      .card:hover .card-side.back {
+        transform: rotateY(0deg);
+      }
 
-    /* !pestaña servicios */
+    /* !pestaña nosotros */
+
+
+   /* pestaña servicios */
+   .subtitulo-servicios h3 {
+    color: #F2962F;
+    font: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+
+   .parrafo-servicios p{
+    font-size: 20px;
+    color: #402E32;
+    font-family: 'Avenir LT Std', sans-serif;                                             
+  }
   
+  /*-- Services list--*/
+    .services .icon-box {
+      margin-bottom: 20px;
+      padding: 30px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    .services img{
+      height: 80px;
+      vertical-align: middle;
+      float:left; 
+    }
+    .services .icon-box:hover {
+      background: #e9e9e9;
+    }
+    
+    .services .icon-box h4{
+      color: #F2962F;
+      transition: 0.3s;
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      margin-left: 70px;
+      margin-bottom: 15px;
+      
+
+    }
+    .services .icon-box p {
+      color: #402E32;
+      font-size: 20px;
+      margin-left: 80px;
+      line-height: 30px;
+      font-family: 'Avenir LT Std', sans-serif; 
+      
+    }
+    /*-- !Services list--*/
+
+  /* !pestaña servicios */
+
 
 /**************************** footer ******************************/
 footer{
-    background-color: #F7F7F7;
+  background-color: #F7F7F7;
 }
 footer h5{
-	color: #996633;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+color: #996633;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
 } 
 footer ul{
-	color: #402E32;
-	font-size: 18px;
-  font-family: 'Avenir LT Std', sans-serif;
-  font-weight: lighter;
+color: #402E32;
+font-size: 18px;
+font-family: 'Avenir LT Std', sans-serif;
+font-weight: lighter;
 } 
 .iconos i{
-	font-size: 28px;
-	color: #996633;
-  padding-right: 2rem;
+font-size: 28px;
+color: #996633;
+
+padding: 20px;
 } 
 .footer-copyright{
-    background-color: #402e32;
-	  color: #F2962F;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+  background-color: #402e32;
+  color: #F2962F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 /**************************** !footer ******************************/

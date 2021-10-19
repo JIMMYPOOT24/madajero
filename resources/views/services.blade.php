@@ -1,5 +1,5 @@
 @extends('layouts.plantilla')
-@section('title', 'Madajero | Inicio')
+@section('title', 'Madajero | Servicios')
 
 @section('contenido')
 
@@ -38,6 +38,7 @@
         <i class="bi bi-bar-chart"></i>
         <img src="img/iconos/proyecto-128px.png" alt="icono-proyectos-ejecutivos">
         <h4>Elaboracion de proyectos ejecutivos</h4>
+        <li style="list-style-type: upper-roman">
           <p>Proyectos ejecutivos autorizados.</p>
           <p>Ingeniería de infraestructura residencial.</p>
           <p>Ingeniería de infraestructura comercial.</p>
@@ -48,6 +49,7 @@
           <p>Catálogo de obras.</p>
           <p>Precios unitarios.</p>
           <p>Programa de obras.</p>
+        </li>
         </div>
     </div>
     <div class="col-md-6 mt-4 mt-md-0">

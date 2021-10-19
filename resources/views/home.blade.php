@@ -6,7 +6,7 @@
    
 <style>
   .banner-image {
-    background-image: url('img/fondos/electrician-g55d4bbea5_1920.jpg');
+    background-image: url('img/fondos/fondo-home.jpg');
     background-size: cover;
 
   }
@@ -16,99 +16,102 @@
   <section id="banner-image" class="banner-image">
     <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
       <div class="content text-center">
-        <h1 class="text-uppercase">Planeacion, desarrollo y ejecucion de servicios de ingenieria</h1>
+        <h1>Planeacion, desarrollo y ejecucion de servicios de ingenieria</h1>
       </div>
     </div>
   </section>
 
     <!-- Banner text  -->
 
-<section id="banner-text" class="banner-text ">
-  <div class=" p-5 mb-4 ">
-    <div class="row">
-      <div class="col-lg-6 order-1 order-lg-2 " data-aos="fade-left" data-aos-delay="100">
-        <div class="aliboton">
-          <a class="btn btn-main" href="#">Saber más</a>
+    <section id="banner-text" class="banner-text ">
+      <div class="p-5 mb-4 ">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h2 class="col-md-10">Ingenieria es lo que hacemos</h2>
+            <h3 class="display-6 fw-bold ">Grupo constructor Madajero proyectos de calidad </h3>
           </div>
-      </div>
-      <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-        <h2 class="col-md-10 ">Ingenieria es lo que hacemos</h2>
-        <h3 class="display-6  ">Grupo constructor Madajero proyectos de calidad </h3>
-      </div>
-    </div>
-
-    </div>
-  </section>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="aliboton">
+              <a class="btn btn-main" href="#">Saber más</a>
+              </div>
+          </div>
+        </div>
+  
+        </div>
+      </section>
 
 
 <!-- Banner text  -->
 
 <!-- Seccion de servicios  -->
 
-<section id="servicios" class=" titulo fondoGriss servicios-text">
-  <div class="container p-5 mb-4">
+<section id="servicios-home" class="d-flex titulo parrafo fondoGriss">
+  <div class="container centrarob">
     <div class="container">
-      <h1 class="text-center">Servicios</h1>
+      <div class="">
+        <h1>Servicios</h1>
+      </div>
     </div>
-  </div>
-  <div>
-    <div class="row centrarob">
+    
 
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-        <div class="service-border">
-          <div>
-          <img src="img/iconos/proyecto-128px.png" class="img-fluid client-logo" alt="">
-          <h4 class="py-5">
+    <div class="row icon-boxes">
+
+      <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+        <div>
+          <div class="icon-box">
+          <img src="img/iconos/proyecto-128px.png" class="img-fluid client-services" alt="">
+          </div>
+          <h4 class="py-3">
             Elaboración de proyectos ejecutivos
           </h4>
-          </div>
-        </div>
       </div>
+    </div>
 
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-        <div class="service-border">
-          <div>
-          <img src="img/iconos/planeacion-128px.png" class="img-fluid client-logo" alt="">
-          <h4 class="py-5">
-            Integración y planeación
-          </h4>
+      <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+        <div>
+          <div class="icon-box">
+          <img src="img/iconos/planeacion-128px.png" class="img-fluid client-services" alt="">
           </div>
-        </div>
+          <h4 class="py-3">
+            Integración y planeación de obras
+          </h4>
       </div>
+    </div>
 
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-        <div class="service-border">
-          <div>
-          <img src="img/iconos/supervicion-128px.png" class="img-fluid client-logo" alt="">
-          <h4 class="py-5">
-            Coordinación y supervición de obras
-          </h4>
-          </div>
+    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+      <div>
+        <div class="icon-box">
+        <img src="img/iconos/supervicion-128px.png" class="img-fluid client-services" alt="">
         </div>
-      </div>
-      
-      
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-        <div class="service-border">
-          <div>
-          <img src="img/iconos/obras-128px.png" class="img-fluid client-logo" alt="">
-          <h4 class="py-5">
-            Ejecución de obras
-          </h4>
-          </div>
-        </div>
-      </div>
-
+        <h4 class="py-3">
+          Coordinación y supervisión de obras
+        </h4>
     </div>
   </div>
+  <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+    <div>
+      <div class="icon-box">
+      <img src="img/iconos/obras-128px.png" class="img-fluid client-services" alt="">
+      </div>
+      <h4 class="py-3">
+        Ejecución de obras
+      </h4>
+  </div>
+</div>
+
+    </div>
+        
   <div class="alibotonser">
     <a class="btn btn-main" href="#">Saber más</a>
   </div>
+</div>
 </section>
+
+
 <!-- Seccion de servicios  -->
 
 <!-- Nosotros  -->
-<section id="nosotros-home" class="titulo parrafo">
+<section id="nosotros-home" class="titulo parrafo servicios-text">
   <div class="container p-5 mb-4">
     <div class="row">
       <div class="col-lg-6 order-1 order-lg-2 " data-aos="fade-left" data-aos-delay="100">
@@ -130,9 +133,8 @@
   </div>
 </section>
 <!-- Nosotros  -->
-
 <section id="contador" class="contador-home">
-  <div class="container centrarobgen">
+  <div class="container centrarCounter">
     <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
 
       <!-- primer contador-->
@@ -165,9 +167,9 @@
             <span class="counter" data-count="850">0</span>
           </div>
           <h3>Costrucciones<br>concretadas</h3>
-
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -283,5 +285,3 @@
  
 
 @endsection
-
-
