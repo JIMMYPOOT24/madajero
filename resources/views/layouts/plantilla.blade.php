@@ -32,7 +32,7 @@
         <div class="mx-auto">    </div>
         <ul class="navbar-nav">
           <li class="nav-item ">
-            <a class="nav-link text-white text-center fs-5" href="{{route('index')}}">Home</a>
+            <a class="nav-link text-white text-center fs-5" href="{{route('index')}}">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="link nav-link text-white text-center fs-5" href="{{route('nosotros')}}">Nosotros</a>
@@ -104,7 +104,7 @@
           <h5 class="font-weight-bold ">Contáctanos</h5>
           <li></i><a href="#" class="text-reset">983-100-1010</a> <i class="fas fa-phone-alt"></i></li>
           <li></i><a href="#" class="text-reset">Correo@ejemplo.com</a> <i class="far fa-envelope"></i></li>
-          <li class="iconos d-flex justify-content-between py-3">
+          <li class="iconos d-flex  py-3">
             <!-- Facebook -->
             <a href="#" class="text-reset"><i class="fab fa-facebook"></i></a>
             <!-- Twitter -->

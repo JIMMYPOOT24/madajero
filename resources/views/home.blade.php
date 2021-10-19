@@ -6,7 +6,7 @@
    
 <style>
   .banner-image {
-    background-image: url('img/fondos/fondo-home.jpg');
+    background-image: url('img/fondos/electrician-g55d4bbea5_1920.jpg');
     background-size: cover;
 
   }
