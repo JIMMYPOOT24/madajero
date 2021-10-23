@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <!-- CDN bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CSS main  -->
     <link rel="stylesheet" href="css/style.css">
-     <!-- CDN foont awesome  -->
+    <!-- CDN foont awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <!-- CDN font family google raleway  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +17,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap" rel="stylesheet">
     <!-- CDN font family avenir  -->
     <link href="http://fonts.cdnfonts.com/css/avenir-lt-std" rel="stylesheet">
-    
+    <!-- CDN Boton de whatsapp  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  
+
     <title>@yield('title')</title>
 </head>
 
@@ -50,7 +54,7 @@
             <a class="nav-link text-white " href="{{url('proyectos')}}">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white " href="{{url('contactos')}}">Contáctanos</a>
+            <a class="nav-link text-white " href="{{url('contactanos')}}">Contáctanos</a>
           </li>
         </ul>
       </div>
@@ -58,20 +62,25 @@
   </nav>
 
    
-    <!-- Modal -->
-    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-               <img src="img/gProyectos/2.jpg" class="modal-img" alt="modal img">
-            </div>
-          </div>
+  <!-- Modal de galeri -->
+  <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <img src="img/gProyectos/2.jpg" class="modal-img" alt="modal img">
         </div>
       </div>
-    
+    </div>
+  </div>
+
+
+  <!-- Boton de whatsapp -->
+  <a href="https://api.whatsapp.com/send?phone=9832299070&text=Hola%20mas%20informacion%20sobre%20sus%20servicios%20que%20ofrece" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
       @yield('contenido')
      
       <!-- Footer -->
@@ -110,7 +119,7 @@
           <h5 class="font-weight-bold ">Contáctanos</h5>
           <li></i><a href="#" class="text-reset">983-100-1010</a> <i class="fas fa-phone-alt"></i></li>
           <li></i><a href="#" class="text-reset">Correo@ejemplo.com</a> <i class="far fa-envelope"></i></li>
-          <li class="iconos d-flex  py-3">
+          <li class="iconos d-flex py-3">
             <!-- Facebook -->
             <a href="#" class="text-reset"><i class="fab fa-facebook"></i></a>
             <!-- Twitter -->
@@ -122,7 +131,7 @@
       </nav>
     </div>
   </footer>
- <!-- Copyright -->
+ <!-- footer Copyright -->
  <div class="footer-copyright text-center py-3">
   © 2020 Copyright todos los derechos reservados
 </div>
@@ -142,6 +151,7 @@
   crossorigin="anonymous"></script>
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/main.js"></script>
+
 
 <script type="text/javascript">
   var nav = document.querySelector('nav');

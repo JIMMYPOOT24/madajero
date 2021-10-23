@@ -15,7 +15,7 @@
   <!-- Banner Image heroes  -->
   <section id="banner-image" class="banner-image">
     <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
-      <div class="content text-center">
+      <div class="content text-center ">
         <h1>Planeacion, desarrollo y ejecucion de servicios de ingenieria</h1>
       </div>
     </div>
@@ -111,7 +111,7 @@
 <!-- Seccion de servicios  -->
 
 <!-- Nosotros  -->
-<section id="nosotros-home" class="titulo parrafo servicios-text">
+<section id="nosotros-home" class="titulo  servicios-text">
   <div class="container p-5 mb-4">
     <div class="row">
       <div class="col-lg-6 order-1 order-lg-2 " data-aos="fade-left" data-aos-delay="100">
