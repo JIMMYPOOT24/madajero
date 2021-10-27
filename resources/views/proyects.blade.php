@@ -1,12 +1,12 @@
 @extends('layouts.plantilla')
-@section('title', 'Madajero | Inicio')
+@section('title', 'Madajero | Proyectos')
 
 @section('contenido')
 
 
 <style>
    .banner-image {
-     background-image: url('img/fondos/fondo-servicios.jpg');
+     background-image: url('img/fondos/fondo-proyectos.jpg');
      background-size: cover;
    }
  </style>
@@ -25,7 +25,7 @@
      <div class=" p-5 mb-4 ">
          <div class="container-fluid py-3">
          <h3 class="display-6 fw-bold ">Nuestros proyectos </h3>
-         <p class="col-md-10 fs-4">Construimos proyectos de calidad</p>
+         <h2 class="col-md-10 fs-4">Construimos proyectos de calidad</h2>
         </div>
      </div>
    </section>
@@ -78,37 +78,7 @@
 </section> --}}
 
 
-<div class="container">
-   <div class="row">
-       <div class="col-12">
-           <h1 class="page-title">Projects</h1>
-       <h3 class="gallery-title">Gallery 1</h3>
-       <div class="row">
-           <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-               <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid card">
-           </a>
-           <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-               <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid card">
-           </a>
-           <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-               <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid card">
-           </a>
-           <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-               <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid card">
-           </a>
-           <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-               <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid card">
-           </a>
-           <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-               <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid card">
-           </a>
-       </div>
-   </div>
-</div>
-</div>
-
-
-
+ 
 
 
 
