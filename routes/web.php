@@ -6,6 +6,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\serviciosController;
 use App\Http\Controllers\proyectosController;
 use App\Http\Controllers\contactanosController;
+use App\Http\Controllers\DashController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,13 +19,9 @@ use App\Http\Controllers\contactanosController;
 |
 */
 
-Route::get('/dash', function () {
-    return view('home');
-});
-
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    return view('dash.index');
 })->name('dashboard');
 
 Route::get('/', HomeController::class)->name('index');
