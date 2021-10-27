@@ -1,12 +1,12 @@
 @extends('layouts.plantilla')
-@section('title', 'Madajero | Inicio')
+@section('title', 'Madajero | Proyectos')
 
 @section('contenido')
 
 
 <style>
    .banner-image {
-     background-image: url('img/fondos/fondo-servicios.jpg');
+     background-image: url('img/fondos/fondo-proyectos.jpg');
      background-size: cover;
    }
  </style>
@@ -25,7 +25,7 @@
      <div class=" p-5 mb-4 ">
          <div class="container-fluid py-3">
          <h3 class="display-6 fw-bold ">Nuestros proyectos </h3>
-         <p class="col-md-10 fs-4">Construimos proyectos de calidad</p>
+         <h2 class="col-md-10 fs-4">Construimos proyectos de calidad</h2>
         </div>
      </div>
    </section>
@@ -73,5 +73,6 @@
   </div>
 </div>
 </section>
+
 
 @endsection

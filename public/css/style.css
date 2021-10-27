@@ -1,138 +1,152 @@
 /**************************** NavBar ******************************/
 nav{
-    font-size: px;
-    color: #FFFFFF;
-    font-family: 'Avenir LT Std', sans-serif;       
+  font-size: px;
+  color: #FFFFFF;
+  font-family: 'Avenir LT Std', sans-serif;       
 }   
 /**************************** !NavBar ******************************/
 
 /**************************** home ******************************/
 .titulo h1{
-    font: 40px;
-    color: #996633;
-    text-align-last: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+  font: 40px;
+  color: #996633;
+  text-align-last: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .subtitulo h2{
-    font: 30px;
-    color: #402E32;   
-    text-align-last: center;
-    font-family: 'Avenir LT Std', sans-serif;                                                
+  font: 30px;
+  color: #402E32;   
+  text-align-last: center;
+  font-family: 'Avenir LT Std', sans-serif;                                                
 }
 
 .parrafo p{
-    font-size: 20px;
-    color: #402E32;
-    font-family: 'Avenir LT Std', sans-serif;                                             
+  font-size: 20px;
+  color: #402E32;
+  font-family: 'Avenir LT Std', sans-serif;                                             
 }
 
 .fondoClaro{
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .fondoGriss{
-    background-color: #F7F7F7;
+  background-color: #F7F7F7;
 }
 
 .banner-image h1{
-	font-size: 40px;
-    color: #FFFFFF;
-    text-align-last: center;    
-    font-family: 'Avenir LT Std', sans-serif;
+font-size: 40px;
+  color: #FFFFFF;
+  text-align-last: center;    
+  font-family: 'Avenir LT Std', sans-serif;
 }
 
 .banner-text h3{
-	color: #996633;	
-	font-size: 40px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
+color: #996633;	
+font-size: 40px;
+font-family: 'Raleway', sans-serif;
+font-weight: bolder;
 }
 .banner-text h2{
-	  font: 20px;
-    color: #402E32;
-    font-family: 'Avenir LT Std', sans-serif;
+  font: 30px;
+  color: #402E32;
+  font-family: 'Avenir LT Std', sans-serif;
 }
 
 .servicios-text h4{
-    font: 20;
-    color: #402E32;
-    font-family: 'Avenir LT Std', sans-serif;
+  font-size: 20px;
+  color: #402E32;
+  text-align: justify;
+  font-family: 'Avenir LT Std', sans-serif;
 }
+
+.textoNosotros h3 {
+  font-size: 22px;
+  color: #402E32;
+  text-align: justify;
+  font-family: 'Avenir LT Std', sans-serif;
+}
+
+
 
 
 /* estilo del boton */
 .btn-main {
-	background: #F2962F;
-	border: 2px solid #F2962F;
-	color: #fff;
-	display: inline-block;
-	font-size: 14px;
-	letter-spacing: 1px;
-	padding: 12px 40px;
-	
-	border-radius: 40px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  }
- 
+background: #F2962F;
+border: 2px solid #F2962F;
+color: #fff;
+display: inline-block;
+font-size: 14px;
+letter-spacing: 1px;
+padding: 12px 40px;
+border-radius: 40px;
+
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+}
+
 /* counter */
 
 .contador-home{
-	background: #402E32;
+background: #402E32;
 }
 .contador-home h1{
-	color: #ffffff;
+color: #ffffff;
 }
 
 .counters-item {
-	background-color: #402E32;
-    padding-bottom: 30px;
-    color: #fff;
-    position: relative;
-  }
-  
+background-color: #402E32;
+  padding-bottom: 30px;
+  color: #fff;
+  position: relative;
+}
+
 .counters-item.kill-border:before {
-    background: none;
-  }
-  
+  background: none;
+}
+
 .counters-item:before {
-    background: #fff;
-    content: "";
-    margin-top: -27.5px;
-    height: 55px;
-    width: 1px;
-    position: absolute;
-    right: -15px;
-    top: 50%;
-  }
-  
+  background: #fff;
+  content: "";
+  margin-top: -27.5px;
+  height: 55px;
+  width: 1px;
+  position: absolute;
+  right: -15px;
+  top: 50%;
+}
+
 .counters-item > div {
-    margin: 6px 0;
-  }
-  
+  margin: 6px 0;
+}
+
 .counters-item span {
-    display: inline;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 50px;
-  }
-  
+  display: inline;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
 .counters-item i {
-    font-size: 40px;
-    display: inline-block;
-    color: #fff;
-  }
-  
+  font-size: 40px;
+  display: inline-block;
+  color: #fff;
+}
+
 .counters-item h3 {
-    font-size: 18px;
-    margin: 0;
-    color: #fff;
-  }
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+}
+.centrarCounter {
+  margin: auto;
+  text-align: center;
+}
 
    /* galeria_home */
-  .gallery{
+   .gallery{
     padding: 70px 0;
   }
   .gallery img{
@@ -147,177 +161,318 @@ nav{
     width: 100%;
   }
 
-  /* servicios_home */
+/* servicios_home */
+#servicios-home .icon-boxes {
+  margin-top: 50px;
+}
 
-  .service-border {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 4px solid #F2962F;
-    background-color: #FFFFFF;
-  }
+#servicios-home .icon-box {
+  padding: 15px 5px;
+  height: auto;
+  width: 150px;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  border-radius: 100%;
+  border: 4px solid #F2962F;
+  background-color: #fff;
+  display: inline-flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
 
-  .client-logo {
-    height: 100%;
-    width: 100px;
-    margin-top: 15px;
-    margin-left: 0px;    
-  }
+.client-services {
+  margin-top: 20px;
+  height: 80px;
+}
+.alibotonser {
+padding-top: 20px;
+padding-bottom: 50px;
+margin: auto;
+text-align: center;
+}
 
-  .centrarob {
-    margin: auto;
-    margin-left: 10%;
-    text-align: center;
-  }
+.centrarob {
+  margin-top: 25px;
+  text-align: center;
+}
+.aliboton {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+}
 
-  .centrarobgen {
-    margin: auto;
-    text-align: center;
-  }
 
-  .alibotonser {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    margin: auto;
-    text-align: center;
-  }
+ /* clientes-home */
+.clientes-h{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
 
-  .aliboton {
-    padding-top: 40px;
-    padding-bottom: 50px;
-    margin: auto;
-    text-align: center;
-  }
+/**************************** !Home******************************/
 
-  .secserp {
-    padding-top: 1;
-  }
+    /* pestaña nosotros */
+    .textMisionVision h1 {
+      text-align: center;
+      color: #F7F7F7;
+    }
 
-   /* clientes-home */
-  .clientes-h{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  /**************************** !Home******************************/
-
-  /* pestaña nosotros */
-
-  .caja {
-    position: relative;
-    width: 100%;
-    height: px;
-  }
-
-  .textoimagen {
-    position: absolute;
-    top: 10px;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 5%;
-    color: #fff;
-    padding-top: 10%;
-  }
-
-  .textoimagenexp {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 5%;
-    margin-top: 50%;
-    color: #fff;
-  }
+    .centrarPDF {
+      margin: auto;
+      text-align: center;
+    }
   
-  .single-page-header {
-    background-image: url("../img/fondos/fondo-nosotros-home.jpg");
-    background-size: cover;
-    padding: 140px 0 70px;
-    text-align: center;
-    color: #fff;
-    position: relative;
+    .section-sm {
+      padding: 70px 0;
     }
-     /* !pestaña nosotros */
-
-
-     /* pestaña servicios */
-     .subtitulo-servicios h3 {
-      color: #F2962F;
-      font: 30px;
-      font-family: 'Raleway', sans-serif;
-      font-weight: bold;
+  
+    .bg-gray {
+      background: #f9f9f9;
     }
-
-     .parrafo-servicios p{
-      font-size: 20px;
-      color: #402E32;
-      font-family: 'Avenir LT Std', sans-serif;                                             
+  
+    .call-to-action {
+      padding: 100px 0;
+      background-image: url("../img/fondos/fondo-nosotros-home.jpg");
+      background-size: cover;
+      color: #fff;
     }
     
-    /*-- Services list--*/
-      .services .icon-box {
-        margin-bottom: 20px;
-        padding: 30px;
-        border-radius: 6px;
-        transition: 0.3s;
-      }
-      .services img{
-        height: 80px;
-        vertical-align: middle;
-        float:left; 
-      }
-      .services .icon-box:hover {
-        background: #e9e9e9;
-      }
-      
-      .services .icon-box h4{
-        color: #F2962F;
-        transition: 0.3s;
-        font-size: 30px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-        margin-left: 70px;
-        margin-bottom: 15px;
-        
-
-      }
-      .services .icon-box p {
-        color: #402E32;
-        font-size: 20px;
-        margin-left: 80px;
-        line-height: 30px;
-        font-family: 'Avenir LT Std', sans-serif; 
-        
-      }
-      /*-- !Services list--*/
-
-    /* !pestaña servicios */
+    .call-to-action h2 {
+      line-height: 1.5;
+    }
+    
+    .call-to-action p {
+      color: #fff;
+    }
   
+    .icon-pdf {
+      height: 70px;
+      padding-right: 30px;
+    }
+  
+    .bordi {
+      border-bottom-right-radius: 15% ;
+      border-top-right-radius: 15%;
+    }
+   
+    /***   nosotros mision y vision  ***/
+    .caja {
+      height: 450px; 
+      color: #ffffff; 
+      font-size: 18px; 
+      text-align: center; 
+      background: #996633; 
+      margin: 0 0 25px; 
+      overflow: hidden; 
+      padding: 20px; 
+      border-radius: 35px 35px 35px 35px;
+      border: 2px solid #996633;
+    }
+
+
+    .textMV1 {
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight:  bolder;
+    }
+
+    .textMV2 {
+      text-align: justify;
+      color: #fff;
+      font-family: 'Avenir LT Std', sans-serif; 
+      font-weight: lighter;
+    }
+    
+   
+      /** slider pestaña nosotros **/
+      
+    .dimensonCarousel {
+      width: 100%;
+      height: 400px;
+    }
+    
+
+    /* !pestaña nosotros */
+
+
+   /* pestaña servicios */
+   .subtitulo-servicios h3 {
+    color: #F2962F;
+    font: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+
+   .parrafo-servicios p{
+    font-size: 20px;
+    color: #402E32;
+    font-family: 'Avenir LT Std', sans-serif;                                             
+  }
+  
+  /*-- Services list--*/
+    .services .icon-box {
+      margin-bottom: 20px;
+      padding: 30px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    .services img{
+      height: 80px;
+      vertical-align: middle;
+      float:left;
+      margin-right: 15px; 
+    }
+    .services .icon-box:hover {
+      background: #e9e9e9;
+    }
+    
+    .services .icon-box h4{
+      color: #F2962F;
+      transition: 0.3s;
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      margin-left: 70px;
+      margin-bottom: 15px;
+      
+
+    }
+    .services .icon-box li {
+      color: #402E32;
+      font-size: 18px;
+      margin-left: 80px;
+      line-height: 30px;
+      font-family: 'Avenir LT Std', sans-serif; 
+      
+    }
+    /*-- !Services list--*/
+
+  /* !pestaña servicios */
+
+
+  /* contactanos */
+
+  .contact-us {
+    padding: 100px 0 50px 0;
+  }
+  
+  .contact-form {
+    margin-bottom: 40px;
+  }
+  
+  .contact-form .form-control {
+    background-color: transparent;
+    border: 1px solid #402E32;
+    box-shadow: none;
+    height: 45px !important;
+    color: #0c0c0c;
+    height: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 0;
+  }
+  
+  .contact-form input:hover,
+  .contact-form textarea:hover,
+  .contact-form #contact-submit:hover {
+    border-color: #F2962F;
+  }
+  
+  .contact-form #contact-submit {
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+    background: #F2962F;
+    color: #fff;
+    border-radius: 0%;
+  }
+  
+  .contact-form textarea.form-control {
+    padding: 10px;
+    height: 120px !important;
+    outline: none;
+  }
+  
+  .contact-details .contact-short-info {
+    margin-top: 15px;
+  }
+  
+  .contact-details .contact-short-info li {
+    margin-bottom: 6px;
+  }
+
+  .error {
+    padding: 10px;
+    color: #D8000C;
+    border-radius: 2px;
+    font-size: 14px;
+    background-color: #FFBABA;
+  }
+  
+  .success {
+    background-color: #F2962F;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  #error, #success {
+    display: none;
+    margin-bottom: 10px;
+  }
+
+
 
 /**************************** footer ******************************/
 footer{
-    background-color: #F7F7F7;
+  background-color: #F7F7F7;
 }
 footer h5{
-	color: #996633;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+color: #996633;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
 } 
 footer ul{
-	color: #402E32;
-	font-size: 18px;
-  font-family: 'Avenir LT Std', sans-serif;
-  font-weight: lighter;
+color: #402E32;
+font-size: 18px;
+font-family: 'Avenir LT Std', sans-serif;
+font-weight: lighter;
 } 
 .iconos i{
-	font-size: 28px;
-	color: #996633;
-  padding-right: 2rem;
+font-size: 28px;
+color: #996633;
+padding-right: 2rem;
+float: left;
 } 
 .footer-copyright{
-    background-color: #402e32;
-	  color: #F2962F;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+  background-color: #402e32;
+  color: #F2962F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 /**************************** !footer ******************************/
+
+/*** Boton de whatsapp ***/
+.float{
+	position:fixed;
+	width:70px;
+	height:70px;
+	bottom:50px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size: 45px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+  background-color: #402E32;
+}
+/*** !Boton de whatsapp ***/

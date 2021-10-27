@@ -1,5 +1,5 @@
 @extends('layouts.plantilla')
-@section('title', 'Madajero | Inicio')
+@section('title', 'Madajero | Servicios')
 
 @section('contenido')
 
@@ -36,31 +36,35 @@
     <div class="col-md-6">
       <div class="icon-box" data-aos="fade-up">
         <i class="bi bi-bar-chart"></i>
-        <img src="img/iconos/proyecto-128px.png" alt="icono-proyectos-ejecutivos">
+        <img src="img/iconos/proyecto-128px.png" alt="icono-proyectos-ejecutivos ">
         <h4>Elaboracion de proyectos ejecutivos</h4>
-          <p>Proyectos ejecutivos autorizados.</p>
-          <p>Ingeniería de infraestructura residencial.</p>
-          <p>Ingeniería de infraestructura comercial.</p>
-          <p>Ingeniería de infraestructura industrial.</p>
-          <p>Ingeniería de infraestructura turistica.</p>
-          <p>Memoria técnica.</p>
-          <p>Especificaciones de construcción.</p>
-          <p>Catálogo de obras.</p>
-          <p>Precios unitarios.</p>
-          <p>Programa de obras.</p>
+        <ul style= "list-style-type: square">
+          <li><p>Proyectos ejecutivos autorizados.</p></li>
+          <li><p>Ingeniería de infraestructura residencial.</p></li>
+          <li><p>Ingeniería de infraestructura comercial.</p></li>
+          <li><p>Ingeniería de infraestructura industrial.</p></li>
+          <li><p>Ingeniería de infraestructura turistica.</p></li>
+          <li><p>Memoria técnica.</p></li>
+          <li><p>Especificaciones de construcción.</p></li>
+          <li><p>Catálogo de obras.</p></li>
+          <li><p>Precios unitarios.</p></li>
+          <li><p>Programa de obras.</p></li>
+        </ul>
         </div>
     </div>
     <div class="col-md-6 mt-4 mt-md-0">
       <div class="icon-box" data-aos="fade-up" >
         <i class="bi bi-bar-chart"></i>
         <img src="img/iconos/planeacion-128px.png" alt="icono-proyectos">
-        <h4>Elaboracion de proyectos ejecutivos</h4>
-          <p>Participación de diciplinas varias.</p>
-          <p>Programación de proyectos.</p>
-          <p>Solución a integracion de proyectos.</p>
-          <p>Recepción de información y tramites generales.</p>
-          <p>Integración de proyectos y presupuestos.</p>
-          <p>Elaboración de programas de insumos.</p>
+        <h4>Integracion y planeación de proyectos ejecutivos</h4>
+        <ul style= "list-style-type: square">
+          <li><p>Participación de diciplinas varias.</p></li>
+          <li><p>Programación de proyectos.</p></li>
+          <li><p>Solución a integracion de proyectos.</p></li>
+          <li><p>Recepción de información y tramites generales.</p></li>
+          <li><p>Integración de proyectos y presupuestos.</p></li>
+          <li><p>Elaboración de programas de insumos.</p></li>
+        </ul>
         </div>
     </div>
     <div class="col-md-6 mt-4 mt-md-0">
@@ -68,14 +72,16 @@
         <i class="bi bi-bar-chart"></i>
         <img src="img/iconos/supervicion-128px.png" alt="icono-obras">
         <h4>Coordinacion y supervición de obras.</h4>
-          <p>Puesta en marcha de estrategias de obras.</p>
-          <p>Vigilancias de control de calidad.</p>
-          <p>Vigilancia de cumplimiento en términos de contrato.</p>
-          <p>Elaboracion de estimacion de avance a contratistas.</p>
-          <p>Elaboración de reportes de avance general.</p>
-          <p>Solución a problemas de obras.</p>
-          <p>Coordinación con autoridades y organismos oficiales.</p>
-          <p>Entrega de obras.</p>
+        <ul style= "list-style-type: square">
+          <li><p>Puesta en marcha de estrategias de obras.</p></li>
+          <li><p>Vigilancias de control de calidad.</p></li>
+          <li><p>Vigilancia de cumplimiento en términos de contrato.</p></li>
+          <li><p>Elaboracion de estimacion de avance a contratistas.</p></li>
+          <li><p>Elaboración de reportes de avance general.</p></li>
+          <li><p>Solución a problemas de obras.</p></li>
+          <li><p>Coordinación con autoridades y organismos oficiales.</p></li>
+          <li><p>Entrega de obras.</p></li>
+        </ul>
       </div>
     </div>
     <div class="col-md-6 mt-4 mt-md-0">
@@ -83,7 +89,10 @@
         <i class="bi bi-binoculars"></i>
         <img src="img/iconos/obras-128px.png" alt="icono-servicios">
         <h4>Ejecucion de obras</h4>
-        <p>Construccion de todo tipos de obras indicadas.</p> </div>
+        <ul style= "list-style-type: square">
+        <li><p>Construccion de todo tipos de obras indicadas.</p></li> 
+      </ul>
+      </div>
     </div>
   </div>
 
