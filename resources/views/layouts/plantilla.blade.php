@@ -38,13 +38,13 @@
             <a class="link nav-link text-white text-center fs-5" href="{{route('nosotros')}}">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="link nav-link text-white text-center fs-5" href="{{url('services')}}">Servicios</a>
+            <a class="link nav-link text-white text-center fs-5" href="{{route('servicios')}}">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="link nav-link text-white text-center fs-5" href="{{url('proyect')}}">Proyectos</a>
+            <a class="link nav-link text-white text-center fs-5" href="{{route('proyectos')}}">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="link nav-link text-white text-center fs-5" href="{{url('contact')}}">Contáctanos</a>
+            <a class="link nav-link text-white text-center fs-5" href="{{route('contactanos')}}">Contáctanos</a>
           </li>
         </ul>
       </div>
@@ -104,7 +104,7 @@
           <h5 class="font-weight-bold ">Contáctanos</h5>
           <li></i><a href="#" class="text-reset">983-100-1010</a> <i class="fas fa-phone-alt"></i></li>
           <li></i><a href="#" class="text-reset">Correo@ejemplo.com</a> <i class="far fa-envelope"></i></li>
-          <li class="iconos d-flex justify-content-between py-3">
+          <li class="iconos d-flex  py-3">
             <!-- Facebook -->
             <a href="#" class="text-reset"><i class="fab fa-facebook"></i></a>
             <!-- Twitter -->

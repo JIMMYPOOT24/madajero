@@ -13,7 +13,7 @@ class contactanosController extends Controller
      */
     public function index()
     {
-        //
+        return view ('contact');
     }
 
     /**
