@@ -1,6 +1,6 @@
 /**************************** NavBar ******************************/
 nav{
-  font-size: px;
+  font-size: 18px;
   color: #FFFFFF;
   font-family: 'Avenir LT Std', sans-serif;       
 }   
@@ -290,8 +290,14 @@ text-align: center;
     .dimensonCarousel {
       width: 100%;
       height: 400px;
+      align-items: center;
     }
-    
+    .text-slider h4{
+      color: #fff;
+      font-size: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+    }
 
     /* !pestaña nosotros */
 
@@ -456,7 +462,26 @@ float: left;
 /**************************** !footer ******************************/
 
 /*** Boton de whatsapp ***/
-
+.float{
+	position:fixed;
+	width:70px;
+	height:70px;
+	bottom:50px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size: 45px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+  background-color: #402E32;
+}
+/*** !Boton de whatsapp ***/
 
 
 /*** CARDS DASHBOARD HOME***/

@@ -5,8 +5,9 @@
 
 <style>
     .banner-image {
-      background-image: url('img/fondos/fondo-nosotros-home.jpg');
+      background-image: url('img/fondos/fondo-nosotros-home.png');
       background-size: cover;
+      background-position: center;
 
     }
   </style>
@@ -81,7 +82,7 @@
 
 
   <!-- slider de certificacion  -->
- <section id="carouselExampleCaptions" class="carousel slide">
+ <section id="carouselExampleCaptions" class="carousel slide text-slider">
 
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
@@ -94,24 +95,21 @@
       <div class="carousel-item active">
         <img src="img/fondos/fondo1.jpg" class="d-block dimensonCarousel img-fluid" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Certificacion 1</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h4>Certificacion 1</h4>
         </div>
       </div>
 
       <div class="carousel-item">
         <img src="img/fondos/Certificaciones2.jpg" class="d-block dimensonCarousel img-fluid" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Certificacion 2</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <h4>Certificacion 2</h4>
         </div>
       </div>
 
       <div class="carousel-item">
         <img src="img/fondos/Certificaciones3.jpg" class="d-block dimensonCarousel img-fluid" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Certificacion 3</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h4>Certificacion 3</h4>
         </div>
       </div>
 

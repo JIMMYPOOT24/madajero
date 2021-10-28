@@ -6,8 +6,9 @@
 
 <style>
    .banner-image {
-     background-image: url('img/fondos/fondo-proyectos.jpg');
+     background-image: url('img/fondos/fondo-proyectos.png');
      background-size: cover;
+     background-position: center;
    }
  </style>
 
