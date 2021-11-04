@@ -33,7 +33,7 @@
           </div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
             <div class="aliboton">
-              <a class="btn btn-main" href="#">Saber más</a>
+              <a class="btn btn-main" href="{{url('proyectos')}}">Saber más</a>
               </div>
           </div>
         </div>
@@ -103,7 +103,7 @@
     </div>
         
   <div class="alibotonser">
-    <a class="btn btn-main" href="#">Saber más</a>
+    <a class="btn btn-main" href="{{url('servicios')}}">Saber más</a>
   </div>
 </div>
 </section>
@@ -127,7 +127,7 @@
           especificaciones o requerimientos propios que demandan el proyecto o lugar de aplicación.
         </h4>
         <div class="aliboton">
-        <a class="btn btn-main" href="#">Saber más</a>
+        <a class="btn btn-main" href="{{route('nosotros')}}">Saber más</a>
         </div>
       </div>
     </div>
@@ -204,7 +204,7 @@
     </div>
   </div>
   <div class="aliboton">
-    <a class="btn btn-main" href="#">Saber más</a>
+    <a class="btn btn-main" href="{{url('proyectos')}}">Saber más</a>
   </div>
 </section>
 <!-- Proyectos  -->
