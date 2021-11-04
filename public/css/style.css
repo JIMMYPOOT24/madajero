@@ -1,6 +1,6 @@
 /**************************** NavBar ******************************/
 nav{
-  font-size: px;
+  font-size: 18px;
   color: #FFFFFF;
   font-family: 'Avenir LT Std', sans-serif;       
 }   
@@ -290,8 +290,14 @@ text-align: center;
     .dimensonCarousel {
       width: 100%;
       height: 400px;
+      align-items: center;
     }
-    
+    .text-slider h4{
+      color: #fff;
+      font-size: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+    }
 
     /* !pestaña nosotros */
 
@@ -456,7 +462,26 @@ float: left;
 /**************************** !footer ******************************/
 
 /*** Boton de whatsapp ***/
-
+.float{
+	position:fixed;
+	width:70px;
+	height:70px;
+	bottom:50px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size: 45px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+  background-color: #402E32;
+}
+/*** !Boton de whatsapp ***/
 
 
 /*** CARDS DASHBOARD HOME***/
@@ -483,10 +508,14 @@ float: left;
 /*** !Boton de whatsapp ***/
 
 
+
 .card {
-  width: 300px;
   display: inline-block;
-  padding: 0 10px;
+  width: 300px;
+  padding:0px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 div.card a {
@@ -509,7 +538,7 @@ div.card a {
 .cardheader img {
   padding: 30px 0;
   margin: 0 auto;
-  width: 125px;
+  width: 50px;
   height: auto;
 }
 
@@ -523,13 +552,24 @@ div.card a {
   background-image: linear-gradient(to bottom, #4C607B 50%, #558ad2 50%) !important;
 }
 
+.iconcolor3 {
+  background-color: #7f5539 !important; 
+  background-image: linear-gradient(to bottom, #7f5539 50%, #b08968 50%) !important;
+}
+.iconcolor4 {
+  background-color: #023e7d !important; 
+  background-image: linear-gradient(to bottom, #023e7d 50%, #0466c8 50%) !important;
+}
+
 div.cardlinks {
-  background: #fff;
+  background: #ffff ;
   padding: 20px;
+
+  
 }
 
 .cardlinks h1 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.4em;
   text-align: center;
   margin: 0 0 20px 0;
@@ -539,7 +579,7 @@ div.cardlinks {
 ul.cardlist {
   padding: 0px;
   margin: 0px;
-  font-size: .8em;
+  font-size: 1em;
   font-weight: 400;
 }
 
@@ -553,3 +593,5 @@ ul.cardlist li {
 }
 
 /*** CARDS DASHBOARD HOME***/
+
+

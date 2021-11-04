@@ -78,7 +78,7 @@
 
 
   <!-- Boton de whatsapp -->
-  <a href="https://api.whatsapp.com/send?phone=9832299070&text=Hola%20mas%20informacion%20sobre%20sus%20servicios%20que%20ofrece" class="float" target="_blank">
+  <a href="https://api.whatsapp.com/send?phone=9832299070&text=Hola%20me%20interesa%20mas%20informacion%20sobre%20sus%20servicios%20que%20ofrecen" class="float" target="_blank">
   <i class="fa fa-whatsapp my-float"></i>
   </a>
       @yield('contenido')
@@ -110,9 +110,9 @@
         <ul class="col-8 col-md-3  list-unstyled">
           <h5 class="font-weight-bold ">Servicios</h5>
           <li><a href="#" class="text-reset">Elaboración de proyectos ejecutivos</a></li>
-          <li><a href="#" class="text-reset">Integración y planeacion de proyectos</a></li>
-          <li><a href="#" class="text-reset">Coordinación y supervicion de obras</a></li>
-          <li><a href="#" class="text-reset">Ejecucion de obras</a></li>
+          <li><a href="#" class="text-reset">Integración y planeación de proyectos</a></li>
+          <li><a href="#" class="text-reset">Coordinación y supervición de obras</a></li>
+          <li><a href="#" class="text-reset">Ejecución de obras</a></li>
         </ul>
         <!-- Contáctanos y redes sociales -->
         <ul class="col-8 col-md-3 list-unstyled">

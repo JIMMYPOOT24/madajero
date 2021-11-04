@@ -5,8 +5,9 @@
 
 <style>
   .banner-image {
-    background-image: url('img/fondos/fondo-servicios.jpg');
+    background-image: url('img/fondos/fondo-servicios.png');
     background-size: cover;
+    background-position: center;
   }
 </style>
 
