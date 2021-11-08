@@ -6,7 +6,7 @@
    
 <style>
   .banner-image {
-    background-image: url('img/fondos/fondo-home.png');
+    background-image: url('img/fondos/{{$datosinicio->img1_inicio}}');
     background-size: cover;
     background-position: center;
 
@@ -17,7 +17,7 @@
   <section id="banner-image" class="banner-image">
     <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
       <div class="content text-center ">
-        <h1>Planeacion, desarrollo y ejecucion de servicios de ingenieria</h1>
+        <h1>{{$datosinicio->slogan}} </h1>
       </div>
     </div>
   </section>
@@ -63,7 +63,7 @@
           <img src="img/iconos/proyecto-128px.png" class="img-fluid client-services" alt="">
           </div>
           <h4 class="py-3">
-            Elaboración de proyectos ejecutivos
+            {{$datoservicio1->categoria}}
           </h4>
       </div>
     </div>
@@ -74,7 +74,7 @@
           <img src="img/iconos/planeacion-128px.png" class="img-fluid client-services" alt="">
           </div>
           <h4 class="py-3">
-            Integración y planeación de obras
+            {{$datoservicio2->categoria}}
           </h4>
       </div>
     </div>
@@ -85,7 +85,7 @@
         <img src="img/iconos/supervicion-128px.png" class="img-fluid client-services" alt="">
         </div>
         <h4 class="py-3">
-          Coordinación y supervisión de obras
+          {{$datoservicio3->categoria}}
         </h4>
     </div>
   </div>
@@ -95,7 +95,7 @@
       <img src="img/iconos/obras-128px.png" class="img-fluid client-services" alt="">
       </div>
       <h4 class="py-3">
-        Ejecución de obras
+        {{$datoservicio4->categoria}}
       </h4>
   </div>
 </div>
@@ -116,15 +116,12 @@
   <div class="container p-5 mb-4">
     <div class="row">
       <div class="col-lg-6 order-1 order-lg-2 " data-aos="fade-left" data-aos-delay="100">
-        <img src="img/fondos/fondo-nosotros-home.jpg" class="img-fluid" alt="">
+        <img src="img/fondos/{{$datosinicio ->img2_inicio}}" class="img-fluid" alt="">
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
         <h1>Nosotros</h1>
         <h4>
-          Grupo madajero se constituye como una empresa integral para la planeación, desarrollo y ejecución de
-          servicios de ingeniería;
-          construcción, supervisión y mantenimiento de obras residenciales, comerciales e industrial bajo
-          especificaciones o requerimientos propios que demandan el proyecto o lugar de aplicación.
+          {{$datonosotros->txt_nosotros}}
         </h4>
         <div class="aliboton">
         <a class="btn btn-main" href="{{route('nosotros')}}">Saber más</a>
@@ -143,7 +140,7 @@
         <div class="counters-item">
           <i class="tf-ion-ios-alarm-outline"></i>
           <div>
-            <span class="counter" data-count="2003">0</span>
+            <span class="counter" data-count="2003">{{$datosinicio->dato_fecha}}</span>
           </div>
           <h3>Año de<br>establecimiento</h3>
         </div>
@@ -154,7 +151,7 @@
         <div class="counters-item">
           <i class="tf-ion-ios-analytics-outline"></i>
           <div>
-            <span class="counter" data-count="250">0</span>
+            <span class="counter" data-count="250">{{$datosinicio->dato_proyectos}}</span>
           </div>
           <h3>Proyectos<br>completados</h3>
         </div>
@@ -165,7 +162,7 @@
         <div class="counters-item">
           <i class="tf-ion-ios-compose-outline"></i>
           <div>
-            <span class="counter" data-count="850">0</span>
+            <span class="counter" data-count="850">{{$datosinicio->dato_construccion}}</span>
           </div>
           <h3>Costrucciones<br>concretadas</h3>
         </div>
@@ -178,28 +175,28 @@
 <!-- Proyectos  -->
 <section id="proyectos-home" class="titulo subtitulo fondoGriss">
   <div class="text-proyectos p-3 text-center">
-    <h2>Que hacemos</h2>
+    <br>
     <h1>Nuestros proyectos</h1>
   </div>
   <div class="gallery min-vh-100 container-lg py-3">
     <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
       <div class="">
-        <img src="img/proyectos/2.jpg" class="gallery-item" alt="gallery">
+        <img src="img/proyectos/{{$datoproyecto1->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/3.jpg" class="gallery-item" alt="gallery">
+        <img src="img/proyectos/{{$datoproyecto2->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/4.jpg" class="gallery-item" alt="gallery">
+        <img src="img/proyectos/{{$datoproyecto3->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/5.jpg" class="gallery-item" alt="gallery">
+        <img src="img/proyectos/{{$datoproyecto4->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/6.jpg" class="gallery-item" alt="gallery">
+        <img src="img/proyectos/{{$datoproyecto5->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/7.jpg" class="gallery-item" alt="gallery">
+        <img src="img/proyectos/{{$datoproyecto6->url_img}}" class="gallery-item" alt="gallery">
       </div>
     </div>
   </div>
@@ -219,64 +216,33 @@
     </div>
   </div>
     <div class="clientes-h container">
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
+      <div class="col-lg-3 col-md-5 col-xs-6 mb-4">
         <div>
-          <img src="img/logos/logo1.png" alt="">
+          <img src="img/logos/{{$datocliente1->logo}}" alt="">
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
+      <div class="col-lg-3 col-md-5 col-xs-6 mb-4">
         <div>
-          <img src="img/logos/logo-2.png" alt="">
+          <img src="img/logos/{{$datocliente2->logo}}" alt="">
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
+      <div class="col-lg-3 col-md-5 col-xs-6 mb-4">
         <div>
-          <img src="img/logos/logo-3.png" alt="">
+          <img src="img/logos/{{$datocliente3->logo}}" alt="">
         </div>
       </div>
       
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
+      <div class="col-lg-3 col-md-5 col-xs-6 mb-4">
           <div>
-            <img src="img/logos/logo-4.png" alt="">
+            <img src="img/logos/{{$datocliente4->logo}}" alt="">
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-        <div>
-          <img src="img/logos/logo-5.png" alt="">
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-        <div>
-          <img src="img/logos/logo1.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-        <div>
-          <img src="img/logos/logo-2.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-        <div>
-          <img src="img/logos/logo-3.png" alt="">
-        </div>
-      </div>
       
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-          <div>
-            <img src="img/logos/logo-4.png" alt="">
-          </div>
-      </div>
 
-      <div class="col-lg-3 col-md-4 col-xs-6 mb-4">
-        <div>
-          <img src="img/logos/logo-5.png" alt="">
-        </div>
-      </div>
+      
     </div>
 </section>
 

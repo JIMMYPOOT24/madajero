@@ -16,7 +16,7 @@
 <section id="banner-image" class="banner-image">
   <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="content text-center">
-      <h1 >Planeacion, desarrollo y ejecucion de servicios de ingenieria</h1>
+      <h1 >Nosotros</h1>
     </div>
   </div>
 </section>
@@ -29,9 +29,7 @@
       </div>
       <div class="col-md-6 mt-20">
         <h1>Grupo Constructor<br>Madajero S.A. de C.V.</h1>
-        <h3>Una empresa integral para la planeación, desarrollo y ejecución de servicios de ingeniería;
-          construcción, supervisión y mantenimiento de obra residencial, comercial e industrial bajo
-           especificaciones o requerimientos propios que demanda el proyecto o lugar de aplicación.</h3>
+        <h3>{{$datonosotros->txt_nosotros}}</h3>
            <div class="col-md-6 centrarPDF">
             <img src="img/iconos/archivo-pdf.png" alt="" class="img-fluid icon-pdf">
             <a href="" class="btn btn-main">Descargar<br>Curriculum</a>
@@ -51,14 +49,7 @@
       <div class="col-md-6 mt-20">
         <div class="caja">
           <h1 class="textMV1">Visión</h1>
-            <p class="textMV2">Grupo constructor Madajero, S. A. De C. V., es una empresa en donde los colaboradores
-              trabajan en conjunto, para ofrecer una atención personalizada que aumenta la confianza
-               y satisfacción de nuestros clientes; transformando sus necesidades en propuestas eficientes
-                y de gran plusvalía en donde la relación costo-beneficio sea la mas óptima para ambas
-                 partes, brindando así, un servicio integral de calidad con tecnología de vanguardia, 
-                 optimizando los recursos humanos, técnicos y económicos; promoviendo la protección al 
-                 medio ambiente, el desarrollo social y el respeto mutuo que nos permita posicionarnos 
-                 como empresa líder en el mercado nacional.  </p>
+            <p class="textMV2">{{$datonosotros->txt_vision}}</p>
           
         </div>
       </div>
@@ -67,11 +58,7 @@
         <div class="caja">
           <div>
             <h1 class="textMV1">Misión</h1>
-            <p class="textMV2">El compromiso de grupo constructor Madajero, S. A. De C. V., con base en un crecimiento 
-              constante y con sentido alto de la ética profesional como uno de sus valores distintivos, 
-              es y será la mejora continua en cada uno de los integrantes que la componen, con una solida 
-              estructura organizacional que proporcione bienestar a sus empleados, clientes y proveedores 
-              con la garantía de un servicio de máxima calidad, honestidad y respeto mutuo.</p>
+            <p class="textMV2">{{$datonosotros->txt_mision}}</p>
           </div>
         </div>
       </div>
@@ -92,27 +79,19 @@
 
     <div class="carousel-inner">
 
-      <div class="carousel-item active">
-        <img src="img/fondos/fondo1.jpg" class="d-block dimensonCarousel img-fluid" alt="...">
+      @forelse ($banner as $item)
+          
+      <div class="carousel-item  @if ($loop->index==0) active @endif ">
+        <img src="img/fondos/{{ $item->url_img}}" class="d-block dimensonCarousel img-fluid w-100" alt="..."  >
         <div class="carousel-caption d-none d-md-block">
-          <h4>Certificacion 1</h4>
+          <h4>{{ $item->titulo}}</h4>
         </div>
+       
       </div>
 
-      <div class="carousel-item">
-        <img src="img/fondos/Certificaciones2.jpg" class="d-block dimensonCarousel img-fluid" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h4>Certificacion 2</h4>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <img src="img/fondos/Certificaciones3.jpg" class="d-block dimensonCarousel img-fluid" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h4>Certificacion 3</h4>
-        </div>
-      </div>
-
+      @empty
+          
+      @endforelse
     </div>
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

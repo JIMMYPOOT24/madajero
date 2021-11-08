@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\mtablaproyectos;
+use App\Models\proyectosModel;
 use Illuminate\Http\Request;
 
 class proyectosController extends Controller
@@ -13,7 +15,11 @@ class proyectosController extends Controller
      */
     public function index()
     {
-        return view ('proyects');
+
+        $datosproyecto = proyectosModel::find(1);
+
+        $datostbproyecto = mtablaproyectos::paginate();
+        return view ('proyects', compact('datostbproyecto', 'datosproyecto'));
     }
 
     /**
