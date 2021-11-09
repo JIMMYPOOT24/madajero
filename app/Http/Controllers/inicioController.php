@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\inicioModel;
 use Illuminate\Http\Request;
 
 class inicioController extends Controller
@@ -14,6 +15,9 @@ class inicioController extends Controller
     public function index()
     {
         //
+        
+
+       
     }
 
     /**
@@ -57,6 +61,11 @@ class inicioController extends Controller
     public function edit($id)
     {
         //
+        $datosinicio = inicioModel::all();
+        $dato = inicioModel::find(1);
+        return view('dash.crudinicio.edit', compact('datosinicio', 'dato'));
+
+        
     }
 
     /**
@@ -69,6 +78,13 @@ class inicioController extends Controller
     public function update(Request $request, $id)
     {
         //
+        
+        $datosinicio = request()->except(['_token', '_method']);
+        inicioModel::where('id', '=', $id)->update($datosinicio);
+        $datosinicio = iniciomodel::findOrFail($id);
+        
+
+
     }
 
     /**

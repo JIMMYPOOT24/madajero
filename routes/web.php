@@ -7,6 +7,7 @@ use App\Http\Controllers\serviciosController;
 use App\Http\Controllers\proyectosController;
 use App\Http\Controllers\contactanosController;
 use App\Http\Controllers\DashController;
+use App\Http\Controllers\inicioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,10 +20,22 @@ use App\Http\Controllers\DashController;
 |
 */
 
+// Ruta del controlador para los cruds de las vistas 
+/* Route::resource('dashboard/datosinicio', inicioController::class); */
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dash.index');
 })->name('dashboard');
+
+
+
+
+
+Route::resource('datosinicio', inicioController::class);
+
+
+
+
 
 Route::get('/', HomeController::class)->name('index');
 Route::get('/nosotros', [AboutController::class, 'about'])->name('nosotros');

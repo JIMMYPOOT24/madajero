@@ -18,7 +18,11 @@
           <div class="cardlinks">
             <h1>Vista Inicio</h1>
             <ul class="cardlist">
-              <li>Editar la vista principal</li>
+
+            
+            <a href={{route('datosinicio.edit', 1 )}}> <li>Editar la vista principal</li> </a>
+           
+                       
               <li>Cambiar fondo</li>
               <li>Cambiar Slogan</li>
               <li>Otros</li>
