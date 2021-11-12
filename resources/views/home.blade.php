@@ -6,7 +6,7 @@
    
 <style>
   .banner-image {
-    background-image: url('img/fondos/{{$datosinicio->img1_inicio}}');
+    background-image: url('storage/{{$datosinicio->img1_inicio}}');
     background-size: cover;
     background-position: center;
 

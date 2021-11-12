@@ -33,8 +33,18 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::resource('datosinicio', inicioController::class);
 
+//Ruta para crear el Storage
+Route::get('storage-link', function(){
 
+    if(file_exists(public_path('public_html/storage'))){
+        return 'The "Public/Storage" directory already exists.';
+    }
 
+    app('files')->link(storage_path('JORRIFADI/app/public'), public_path('public_html/storage'));
+
+    return 'The "Public/Storage" directory has been linked.';
+        
+});
 
 
 Route::get('/', HomeController::class)->name('index');

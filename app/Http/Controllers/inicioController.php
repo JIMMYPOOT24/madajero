@@ -62,8 +62,8 @@ class inicioController extends Controller
     {
         //
         $datosinicio = inicioModel::all();
-        $dato = inicioModel::find(1);
-        return view('dash.crudinicio.edit', compact('datosinicio', 'dato'));
+        $datoinicio = inicioModel::find(1);
+        return view('dash.crudinicio.edit', compact('datosinicio', 'datoinicio'));
 
         
     }
@@ -77,11 +77,19 @@ class inicioController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
         
-        $datosinicio = request()->except(['_token', '_method']);
-        inicioModel::where('id', '=', $id)->update($datosinicio);
-        $datosinicio = iniciomodel::findOrFail($id);
+        $datoinicio = request()->except(['_token', '_method']);
+        inicioModel::where('id', '=', $id)->update($datoinicio);
+        $datoinicio = iniciomodel::findOrFail($id);
+
+        if ($request->hasFile('img1_inicio')) {
+            $datoinicio['img1_inicio'] = $request->file('img1_inicio')->store('images', 'public');
+            $datoinicio->update();
+        }
+
+        //Solicitar todos los datos para mostrar
+        $datosinicio =inicioModel::all();
+        return view('dash.crudinicio.edit', compact('datosinicio', 'datoinicio'));
         
 
 
