@@ -5,7 +5,7 @@
 
 <style>
     .banner-image {
-      background-image: url('img/fondos/fondo-nosotros-home.png');
+      background-image: url('storage/{{$datonosotros->img1_nosotros}}');
       background-size: cover;
       background-position: center;
 
@@ -25,7 +25,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img class="img-fluid bordi" src="img/proyectos/17.jpg" alt="">
+        <img class="img-fluid bordi" src="storage/{{$datonosotros->img2_nosotros}}" alt="">
       </div>
       <div class="col-md-6 mt-20">
         <h1>Grupo Constructor<br>Madajero S.A. de C.V.</h1>

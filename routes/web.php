@@ -8,6 +8,7 @@ use App\Http\Controllers\proyectosController;
 use App\Http\Controllers\contactanosController;
 use App\Http\Controllers\DashController;
 use App\Http\Controllers\inicioController;
+use App\Http\Controllers\nosotrosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +33,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 
 Route::resource('datosinicio', inicioController::class);
+Route::resource('datosnosotros', nosotrosController::class);
 
 //Ruta para crear el Storage
 Route::get('storage-link', function(){

@@ -39,7 +39,7 @@
           <div class="cardlinks">
             <h1>Vista Nosotros</h1>
             <ul class="cardlist">
-              <li>Editar la vista principal</li>
+              <a href={{route('datosnosotros.edit', 1 )}}> <li>Editar la vista principal</li> </a>
               <li>Editar Imagenes</li>
               <li>Editar Visión</li>
               <li>Editar Misión</li>

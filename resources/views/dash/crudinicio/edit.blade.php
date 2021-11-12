@@ -3,7 +3,7 @@
 @section('title', 'Editar Home')
 
 @section('content_header')
-<h1>Editar home</h1>
+<h1>Editar Inicio</h1>
 @stop
 
 @section('content')
@@ -12,7 +12,6 @@
     {{ csrf_field() }}
     {{ method_field('PATCH') }}
     <div class="mb-3 mt-4">
-
 
         <label for="img1_inicio" class="form-label fw-bold text-primary">Imagen de fondo de Inicio:</label>
     <div class="card" style="width: 50%">
