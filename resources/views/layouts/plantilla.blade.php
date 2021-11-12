@@ -153,9 +153,16 @@
 <script src="js/main.js"></script>
 
 
+ <!-- Form Validation -->
+ <script src="js/jquery.form.js"></script> 
+ <script src="js/jquery.validate.min.js"></script>
+
+ <!-- Custom js -->
+ <script src="js/script.js"></script>
+
+
 <script type="text/javascript">
   var nav = document.querySelector('nav');
-
   window.addEventListener('scroll', function () {
     if (window.pageYOffset > 100) {
       nav.classList.add('bg-dark', 'shadow');

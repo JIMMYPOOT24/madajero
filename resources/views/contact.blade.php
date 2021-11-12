@@ -31,34 +31,48 @@
 
         <form id="contact-form" method="post" role="form">
 
-          <div class="form-group">
-            <input type="text" placeholder="Nombre" class="form-control" name="name" id="name">
-          </div>
-          
-          <div class="form-group">
-            <input type="email" placeholder="Correo" class="form-control" name="email" id="email">
-          </div>
-          
-          <div class="form-group">
-            <input type="text" placeholder="Numero de telefono" class="form-control" name="number" id="number">
-          </div>
 
+          <div class="row g-4 texto-mensaje">
 
-          <div class="form-group">
-            <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
-          </div>
-          
+            <div class="col-12 col-md-6 ">
+
+              <div class="form-group cajadist">
+                <h1>Nombre y Apellido</h1>
+                <input type="text" placeholder="Nombre Completo" class="form-control cotact-caja" name="name" id="name">
+              </div>
+              
+              <div class="form-group cajadist">
+                <h1>Correo Eléctronico</h1>
+                <input type="email" placeholder="Correo Eléctronico" class="form-control" name="email" id="email">
+              </div>
+              
+              <div class="form-group cajadist">
+                <h1>Numero de contacto</h1>
+                <input type="text" placeholder="Número de Teléfono" class="form-control" name="number" id="number">
+              </div>
+
+            </div>
+  
+            <div class="col-12 col-md-6 ">
+              <div class="form-group">
+                <h1 class="text-center" >Mensaje</h1>
+                <textarea rows="6" placeholder="Escribe aquí tu mensaje" class="form-control" name="message" id="message"></textarea>	
+              </div>
+            </div>
+  
           <div id="success" class="success">
-            Gracias por ponerte en contacto. Tu mensaje esta en camino :)
+            Gracias por ponerte en contacto. Tu mensaje esta en camino.
           </div>
           
           <div id="error" class="error">
-            Lo sentimos, algo no esta bien. Por favor intentalo mas tarde :(
+            Lo sentimos, algo no esta bien. Por favor intentalo mas tarde.
           </div>
 
           <div id="cf-submit">
-            <button class="btn btn-main align-items-center"> enviar </button>
-          </div>						
+            <input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
+          </div>
+          
+        </div>
           
         </form>
       </div>

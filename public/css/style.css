@@ -288,11 +288,11 @@ text-align: center;
       
     .dimensonCarousel {
       width: 100%;
-      height: 700px;
+      height: 400px;
       align-items: center;
     }
     .text-slider h4{
-      color: #fff;
+      color: #996633;
       font-size: 40px;
       font-family: 'Raleway', sans-serif;
       font-weight: bolder;
@@ -356,78 +356,110 @@ text-align: center;
   /* !pestaña servicios */
 
 
-  /* contactanos */
+/* contactanos */
 
-  .contact-us {
-    padding: 100px 0 50px 0;
-  }
-  
-  .contact-form {
-    margin-bottom: 40px;
-  }
-  
-  .contact-form .form-control {
-    background-color: transparent;
-    border: 1px solid #402E32;
-    box-shadow: none;
-    height: 45px !important;
-    color: #0c0c0c;
-    height: 38px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    border-radius: 0;
-  }
-  
-  .contact-form input:hover,
-  .contact-form textarea:hover,
-  .contact-form #contact-submit:hover {
-    border-color: #F2962F;
-  }
-  
-  .contact-form #contact-submit {
-    border: none;
-    padding: 15px 0;
-    width: 100%;
-    margin: 0;
-    background: #F2962F;
-    color: #fff;
-    border-radius: 0%;
-  }
-  
-  .contact-form textarea.form-control {
-    padding: 10px;
-    height: 120px !important;
-    outline: none;
-  }
-  
-  .contact-details .contact-short-info {
-    margin-top: 15px;
-  }
-  
-  .contact-details .contact-short-info li {
-    margin-bottom: 6px;
-  }
+.bordform {
+  border-bottom-right-radius: 15% ;
+  border-top-right-radius: 15%;
+}
 
-  .error {
-    padding: 10px;
-    color: #D8000C;
-    border-radius: 2px;
-    font-size: 14px;
-    background-color: #FFBABA;
-  }
-  
-  .success {
-    background-color: #F2962F;
-    border-radius: 2px;
-    color: #fff;
-    font-size: 14px;
-    padding: 10px;
-  }
-  
-  #error, #success {
-    display: none;
-    margin-bottom: 10px;
-  }
+.cajadist {
+  padding-bottom: 20px;
+}
+
+.contact-us {
+  padding: 100px 0 50px 0;
+}
+
+.contact-form {
+  margin-bottom: 40px;
+}
+
+.contact-form .form-control {
+  background-color: transparent;
+  border: 1px solid #402E32;
+  box-shadow: none;
+  height: 50px;
+  color: #0c0c0c;
+  font-family: 'Avenir LT Std', sans-serif; 
+  font-size: 18px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover,
+.contact-form #contact-submit:hover {
+  border-color: #740000;
+}
+
+.contact-form #contact-submit {
+  border: none;
+  padding: 15px 0;
+  width: 20%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: #F2962F;
+  color: #fff;
+  border-radius: 0%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.contact-form textarea.form-control {
+  padding: 10px;
+  height: 260px;
+  outline: none;
+}
+
+.contact-details .contact-short-info {
+  margin-top: 15px;
+}
+
+.contact-details .contact-short-info li {
+  margin-bottom: 6px;
+}
+
+.error {
+  padding: 10px;
+  color: #D8000C;
+  border-radius: 2px;
+  font-size: 14px;
+  background-color: #FFBABA;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.success {
+  background-color: #F2962F;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+#error, #success {
+  display: none;
+}
+
+.texto-mensaje h1{
+  color: #996633;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
 
 
 
@@ -481,10 +513,6 @@ float: left;
   background-color: #402E32;
 }
 /*** !Boton de whatsapp ***/
-
-
-/*** CARDS DASHBOARD HOME***/
-
 .float{
 	position:fixed;
 	width:70px;
@@ -506,6 +534,8 @@ float: left;
 }
 /*** !Boton de whatsapp ***/
 
+
+/*** CARDS DASHBOARD HOME***/
 
 
 .card {
@@ -592,6 +622,7 @@ ul.cardlist li {
 }
 
 /*** CARDS DASHBOARD HOME***/
+
 
 
 .imgcrud{
