@@ -32,7 +32,7 @@
         <h3>{{$datonosotros->txt_nosotros}}</h3>
            <div class="col-md-6 centrarPDF">
             <img src="img/iconos/archivo-pdf.png" alt="" class="img-fluid icon-pdf">
-            <a href="" class="btn btn-main">Descargar<br>Curriculum</a>
+            <a href="storage/{{$datonosotros->curriculum}}" class="btn btn-main" target="_blank">Descargar<br>Curriculum</a>
           </div>
       </div>
       
@@ -82,7 +82,7 @@
       @forelse ($banner as $item)
           
       <div class="carousel-item  @if ($loop->index==0) active @endif ">
-        <img src="img/fondos/{{ $item->url_img}}" class="d-block dimensonCarousel img-fluid w-100" alt="..."  >
+        <img src="storage/{{ $item->url_img}}" class="d-block dimensonCarousel img-fluid" alt="..."  >
         <div class="carousel-caption d-none d-md-block">
           <h4>{{ $item->titulo}}</h4>
         </div>

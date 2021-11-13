@@ -33,7 +33,6 @@
 
 
 
-      {{--    <!-- seccion galeria -->
 <section class="gallery min-vh-100">
 <div class="container-lg">
 
@@ -51,7 +50,7 @@
  
 </div>
 
-</section> --}}
+</section> 
 
 
  
