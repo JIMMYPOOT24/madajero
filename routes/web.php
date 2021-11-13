@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\certificacionController;
 use App\Http\Controllers\serviciosController;
 use App\Http\Controllers\proyectosController;
 use App\Http\Controllers\contactanosController;
@@ -34,6 +35,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::resource('datosinicio', inicioController::class);
 Route::resource('datosnosotros', nosotrosController::class);
+Route::resource('datoscertificaciones', certificacionController::class);
 
 //Ruta para crear el Storage
 Route::get('storage-link', function(){

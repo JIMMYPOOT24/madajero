@@ -18,14 +18,13 @@
           <div class="cardlinks">
             <h1>Vista Inicio</h1>
             <ul class="cardlist">
+            <a href={{route('datosinicio.edit', 1 )}}> <li class="text-primary"><b>Editar la vista principal</b></li> </a>
+            <li>Cambiar Slogan</li>
+            <li>Otros</li>
 
-            
-            <a href={{route('datosinicio.edit', 1 )}}> <li>Editar la vista principal</li> </a>
-           
-                       
-              <li>Cambiar fondo</li>
-              <li>Cambiar Slogan</li>
-              <li>Otros</li>
+            <a href={{route('datoscertificaciones.index')}}><li class="text-primary"><b>Editar Carrusel de Imagenes</b></li></a>
+      
+             
             </ul>
           </div>
         </a>
@@ -39,7 +38,7 @@
           <div class="cardlinks">
             <h1>Vista Nosotros</h1>
             <ul class="cardlist">
-              <a href={{route('datosnosotros.edit', 1 )}}> <li>Editar la vista principal</li> </a>
+              <a href={{route('datosnosotros.edit', 1 )}}> <li class="text-primary"><b>Editar la vista principal</b></li> </a>
               <li>Editar Imagenes</li>
               <li>Editar Visión</li>
               <li>Editar Misión</li>
