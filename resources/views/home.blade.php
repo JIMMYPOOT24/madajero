@@ -140,7 +140,7 @@
         <div class="counters-item">
           <i class="tf-ion-ios-alarm-outline"></i>
           <div>
-            <span class="counter" data-count="2003">{{$datosinicio->dato_fecha}}</span>
+            <span class="counter" data-count="{{$datosinicio->dato_fecha}}">100</span>
           </div>
           <h3>Año de<br>establecimiento</h3>
         </div>
@@ -151,7 +151,7 @@
         <div class="counters-item">
           <i class="tf-ion-ios-analytics-outline"></i>
           <div>
-            <span class="counter" data-count="250">{{$datosinicio->dato_proyectos}}</span>
+            <span class="counter" data-count="{{$datosinicio->dato_proyectos}}">100</span>
           </div>
           <h3>Proyectos<br>completados</h3>
         </div>
@@ -162,7 +162,7 @@
         <div class="counters-item">
           <i class="tf-ion-ios-compose-outline"></i>
           <div>
-            <span class="counter" data-count="850">{{$datosinicio->dato_construccion}}</span>
+            <span class="counter" data-count="{{$datosinicio->dato_construccion}}">100</span>
           </div>
           <h3>Costrucciones<br>concretadas</h3>
         </div>
