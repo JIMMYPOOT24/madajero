@@ -112,7 +112,7 @@
 <!-- Seccion de servicios  -->
 
 <!-- Nosotros  -->
-<section id="nosotros-home" class="titulo  servicios-text">
+<section id="nosotros-home" class="titulo  textoNosotros">
   <div class="container p-5 mb-4">
     <div class="row">
       <div class="col-lg-6 order-1 order-lg-2 " data-aos="fade-left" data-aos-delay="100">
@@ -120,9 +120,9 @@
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
         <h1>Nosotros</h1>
-        <h4>
+        <h3>
           {{$datonosotros->txt_nosotros}}
-        </h4>
+        </h3>
         <div class="aliboton">
         <a class="btn btn-main" href="{{route('nosotros')}}">Saber más</a>
         </div>

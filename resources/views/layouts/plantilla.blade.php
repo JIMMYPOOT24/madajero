@@ -101,27 +101,27 @@
         <ul class="col-8 col-md-3 list-unstyled">
           <h5 class="font-weight-bold ">Quienes somos</h5>
           <li><a href="{{route('index')}}" class="text-reset">Inicio</a></li>
-          <li><a href="#" class="text-reset">Nosotros</a></li>
-          <li><a href="#" class="text-reset">Servicios</a></li>
-          <li><a href="#" class="text-reset">Proyectos</a></li>
-          <li><a href="#" class="text-reset">Contáctanos</a></li>
+          <li><a href="{{route('nosotros')}}" class="text-reset">Nosotros</a></li>
+          <li><a href="{{route('servicios')}}" class="text-reset">Servicios</a></li>
+          <li><a href="{{route('proyectos')}}" class="text-reset">Proyectos</a></li>
+          <li><a href="{{route('contactanos')}}" class="text-reset">Contáctanos</a></li>
         </ul>
         <!-- menu 2 -->
         <ul class="col-8 col-md-3  list-unstyled">
           <h5 class="font-weight-bold ">Servicios</h5>
-          <li><a href="#" class="text-reset">Elaboración de proyectos ejecutivos</a></li>
-          <li><a href="#" class="text-reset">Integración y planeación de proyectos</a></li>
-          <li><a href="#" class="text-reset">Coordinación y supervición de obras</a></li>
-          <li><a href="#" class="text-reset">Ejecución de obras</a></li>
+          <li><a href="{{route('servicios')}}" class="text-reset">Elaboración de proyectos ejecutivos</a></li>
+          <li><a href="{{route('servicios')}}"class="text-reset">Integración y planeación de proyectos</a></li>
+          <li><a href="{{route('servicios')}}" class="text-reset">Coordinación y supervición de obras</a></li>
+          <li><a href="{{route('servicios')}}" class="text-reset">Ejecución de obras</a></li>
         </ul>
         <!-- Contáctanos y redes sociales -->
         <ul class="col-8 col-md-3 list-unstyled">
           <h5 class="font-weight-bold ">Contáctanos</h5>
           <li></i><a class="text-reset">983-100-1010</a> <i class="fas fa-phone-alt"></i></li>
-          <li></i><a class="text-reset">Correo@ejemplo.com</a> <i class="far fa-envelope"></i></li>
+          <li></i><a href="{{route('contactanos')}}" class="text-reset">Correo@ejemplo.com</a> <i class="far fa-envelope"></i></li>
           <li class="iconos d-flex py-3">
             <!-- Facebook -->
-            <a href="#" class="text-reset"><i class="fab fa-facebook"></i></a>
+            <a href= https://www.facebook.com/ target="_blank" class="text-reset"><i class="fab fa-facebook"></i></a>
           </li>
         </ul>
       </nav>
