@@ -8,5 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class mclientes extends Model
 {
     use HasFactory;
+    public $timestamps = false;
     protected $table = 'clientes';// <-- El nombre personalizado
 }

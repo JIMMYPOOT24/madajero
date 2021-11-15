@@ -10,6 +10,7 @@ use App\Http\Controllers\contactanosController;
 use App\Http\Controllers\DashController;
 use App\Http\Controllers\inicioController;
 use App\Http\Controllers\nosotrosController;
+use App\Http\Controllers\tbclientesController;
 use App\Http\Controllers\tbproyectosController;
 use App\Http\Controllers\tbserviciosController;
 use App\Models\serviciosModel;
@@ -43,6 +44,7 @@ Route::resource('datosservicios', serviciosController::class);
 Route::resource('datostbservicios', tbserviciosController::class);
 Route::resource('datosproyectos', proyectosController::class);
 Route::resource('datostbproyectos', tbproyectosController::class);
+Route::resource('datostbclientes', tbclientesController::class);
 
 
 //Ruta para crear el Storage
