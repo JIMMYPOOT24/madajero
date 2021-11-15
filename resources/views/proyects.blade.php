@@ -6,7 +6,7 @@
 
 <style>
    .banner-image {
-     background-image: url('img/fondos/{{$datosproyecto->img1_proyectos}}');
+     background-image: url('storage/{{$datosproyecto->img1_proyectos}}');
      background-size: cover;
      background-position: center;
    }
@@ -43,7 +43,7 @@
 
    @foreach ($datostbproyecto  as $proyectos)
      <div class="col">
-        <img src="img/Proyectos/{{$proyectos->url_img}}" class="gallery-item" alt="gallery"> 
+        <img src="storage/{{$proyectos->url_img}}" class="gallery-item" alt="gallery"> 
      </div>
      @endforeach
   </div>

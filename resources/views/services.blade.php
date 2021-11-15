@@ -43,7 +43,7 @@
       <div class="icon-box" data-aos="fade-up">
         <i class="bi bi-bar-chart"></i>
         
-        <img src="img/iconos/{{$servicios->url_img}}" alt="icono-proyectos-ejecutivos ">
+        <img src="storage/{{$servicios->url_img}}" alt="icono-proyectos-ejecutivos ">
         <h4>{{$servicios->categoria}}</h4>
         <ul style= "list-style-type: square">
           <li><p>{{$servicios->servicio1}}</p></li>

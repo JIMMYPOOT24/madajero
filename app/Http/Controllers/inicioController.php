@@ -86,6 +86,10 @@ class inicioController extends Controller
             $datoinicio['img1_inicio'] = $request->file('img1_inicio')->store('images', 'public');
             $datoinicio->update();
         }
+        if ($request->hasFile('img2_inicio')) {
+            $datoinicio['img2_inicio'] = $request->file('img2_inicio')->store('images', 'public');
+            $datoinicio->update();
+        }
 
         //Solicitar todos los datos para mostrar
         $datosinicio =inicioModel::all();
