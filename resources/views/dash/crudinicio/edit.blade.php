@@ -14,15 +14,13 @@
     <div class="mb-3 mt-4">
 
         <label for="img1_inicio" class="form-label fw-bold text-primary">Imagen de fondo de Inicio:</label>
-    <div class="card" style="width: 50%">
+     <div class="card" style="width: 30%">
         <img src="{{ asset('storage'). '/' . $datoinicio->img1_inicio}}" class="card-img-top"
             alt="Imagen del Banner Inicio">
         <div class="card-body" >
             <input type="file" value="" name="img1_inicio" id="img1_inicio">
         </div>
     </div>
-
-    <br>
     <div class="mb-3 mt-2">
         <div class="mb-3 ">
             <label for="slogan" class="form-label fw-bold text-primary">Slogan:</label>
@@ -30,10 +28,15 @@
         </div>
     </div>
     <br>
-    <div class="mb-3">
-        <label for="img2_inicio" class="form-label fw-bold text-primary ">Imagen 2 de Inicio:</label>
-        <input type="text" name="img2_inicio" id="img2_inicio" class="form-control"
-            value="{{$datoinicio->img2_inicio}}">
+    <div class="mb-3 mt-4">
+
+        <label for="img2_inicio" class="form-label fw-bold text-primary">Imagen 2 de Inicio:</label>
+     <div class="card" style="width: 30%">
+        <img src="{{ asset('storage'). '/' . $datoinicio->img2_inicio}}" class="card-img-top"
+            alt="Imagen del Banner Inicio">
+        <div class="card-body" >
+            <input type="file" value="" name="img2_inicio" id="img2_inicio">
+        </div>
     </div>
     <br>
     <div class="mb-3 mt-2">

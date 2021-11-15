@@ -116,7 +116,7 @@
   <div class="container p-5 mb-4">
     <div class="row">
       <div class="col-lg-6 order-1 order-lg-2 " data-aos="fade-left" data-aos-delay="100">
-        <img src="img/fondos/{{$datosinicio ->img2_inicio}}" class="img-fluid" alt="">
+        <img src="storage/{{$datosinicio->img2_inicio}}" class="img-fluid" alt="">
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
         <h1>Nosotros</h1>
@@ -181,22 +181,22 @@
   <div class="gallery min-vh-100 container-lg py-3">
     <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
       <div class="">
-        <img src="img/proyectos/{{$datoproyecto1->url_img}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto1->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/{{$datoproyecto2->url_img}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto2->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/{{$datoproyecto3->url_img}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto3->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/{{$datoproyecto4->url_img}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto4->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/{{$datoproyecto5->url_img}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto5->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="img/proyectos/{{$datoproyecto6->url_img}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto6->url_img}}" class="gallery-item" alt="gallery">
       </div>
     </div>
   </div>
