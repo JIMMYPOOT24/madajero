@@ -25,7 +25,7 @@
         <tr>
             <td>{{$loop->iteration}}</td>
             <td>{{$banne->titulo}}</td>
-            <td><img src="{{ asset('storage'). '/' . $banne->url_img}}" width="15%" class="img-thumbnail" alt="Imagen del cliente"></td>
+            <td><img src="{{ asset('storage'). '/' . $banne->url_img}}" width="25%" class="img-thumbnail" alt="Imagen del cliente"></td>
             <td>
                 <a href="{{route('datostbproyectos.edit', $banne->id )}}"><button
                         class="btn btn-sm btn-primary">Editar</button></a>
