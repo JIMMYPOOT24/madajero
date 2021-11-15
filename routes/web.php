@@ -10,6 +10,9 @@ use App\Http\Controllers\contactanosController;
 use App\Http\Controllers\DashController;
 use App\Http\Controllers\inicioController;
 use App\Http\Controllers\nosotrosController;
+use App\Http\Controllers\tbproyectosController;
+use App\Http\Controllers\tbserviciosController;
+use App\Models\serviciosModel;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,6 +39,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::resource('datosinicio', inicioController::class);
 Route::resource('datosnosotros', nosotrosController::class);
 Route::resource('datoscertificaciones', certificacionController::class);
+Route::resource('datosservicios', serviciosController::class);
+Route::resource('datostbservicios', tbserviciosController::class);
+Route::resource('datosproyectos', proyectosController::class);
+Route::resource('datostbproyectos', tbproyectosController::class);
+
 
 //Ruta para crear el Storage
 Route::get('storage-link', function(){

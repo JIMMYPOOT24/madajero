@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\mtablaservicio;
-use App\Models\serviciosModel;
+use App\Models\mtablaproyectos;
 use Illuminate\Http\Request;
 
-class serviciosController extends Controller
+class tbproyectosController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,10 +14,8 @@ class serviciosController extends Controller
      */
     public function index()
     {
-
-        $datoservicio = serviciosModel::find(1);
-        $datotbservicio = mtablaservicio::paginate();
-        return view ('services', compact('datoservicio', 'datotbservicio'));
+        $datotbproyectos = mtablaproyectos::paginate();
+        return view('dash.crudtbproyectos.index', compact('datotbproyectos'));
     }
 
     /**
@@ -28,7 +25,7 @@ class serviciosController extends Controller
      */
     public function create()
     {
-        
+        return view('dash.crudtbproyectos.create');
     }
 
     /**
@@ -39,7 +36,14 @@ class serviciosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $datostbproyectos  = request()->except('_token');
+
+        if ($request->hasFile('url_img')) {
+            $datostbproyectos ['url_img'] = $request->file('url_img')->store('images', 'public');
+        }
+
+        mtablaproyectos::insert( $datostbproyectos);
+        return redirect('/datostbproyectos');
     }
 
     /**
@@ -61,10 +65,10 @@ class serviciosController extends Controller
      */
     public function edit($id)
     {
-        $datosservicio = serviciosModel::all();
-        $datoservicio = serviciosModel::find(1);
+        $datostbproyectos = mtablaproyectos::findOrFail($id);
+       
 
-        return view('dash.crudservicios.edit', compact('datosservicio', 'datoservicio'));
+        return view('dash.crudtbproyectos.edit', compact('datostbproyectos'));
     }
 
     /**
@@ -76,21 +80,18 @@ class serviciosController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $datoservicio = request()->except(['_token', '_method']);
-        serviciosModel::where('id', '=', $id)->update($datoservicio);
-        $datoservicio = serviciosModel::findOrFail($id);
+        //metodos update para nosotros 
+        $datostbproyectos= request()->except(['_token', '_method']);
+        mtablaproyectos::where('id', '=', $id)->update($datostbproyectos);
+        $datostbproyectos = mtablaproyectos::findOrFail($id);
 
-        if ($request->hasFile('img1_servicios')) {
-            $datoservicio['img1_servicios'] = $request->file('img1_servicios')->store('images', 'public');
-            $datoservicio->update();
+        //condicional para modificar imagen, si es que hay 
+        if ($request->hasFile('url_img')) {
+            $datostbproyectos['url_img'] = $request->file('url_img')->store('images', 'public');
+            $datostbproyectos->update();
         }
-      
 
-          //Solicitar todos los datos para mostrar
-          $datosservicio = serviciosModel::all();
-  
-          return view('dash.crudservicios.edit', compact('datoservicio', 'datosservicio'));
-          
+        return view('dash.crudtbproyectos.edit', compact('datostbproyectos'));
     }
 
     /**
@@ -101,6 +102,7 @@ class serviciosController extends Controller
      */
     public function destroy($id)
     {
-        //
+        mtablaproyectos::destroy($id);
+        return redirect('/datostbproyectos');
     }
 }

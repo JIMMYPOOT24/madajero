@@ -62,7 +62,10 @@ class proyectosController extends Controller
      */
     public function edit($id)
     {
-        //
+        $datosproyecto = proyectosModel::find(1);
+        $datoproyecto = proyectosModel::all();
+
+        return view('dash.crudproyectos.edit', compact('datosproyecto', 'datoproyecto'));
     }
 
     /**
@@ -74,7 +77,20 @@ class proyectosController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $datosproyecto= request()->except(['_token', '_method']);
+        proyectosModel::where('id', '=', $id)->update( $datosproyecto);
+        $datosproyecto = proyectosModel::findOrFail($id);
+
+        if ($request->hasFile('img1_proyectos')) {
+            $datosproyecto['img1_proyectos'] = $request->file('img1_proyectos')->store('images', 'public');
+            $datosproyecto->update();
+        }
+      
+
+          //Solicitar todos los datos para mostrar
+          $datoproyecto = proyectosModel::all();
+  
+          return view('dash.crudproyectos.edit', compact('datoproyecto', 'datosproyecto'));
     }
 
     /**

@@ -54,10 +54,10 @@
           <div class="cardlinks">
             <h1>Vista Servicios</h1>
             <ul class="cardlist">
-              <li>Editar la vista principal</li>
+              <a href={{route('datosservicios.edit',1 )}}> <li class="text-primary"><b>Editar la vista principal</b></li> </a>
               <li>Editar Servicios</li>
               <li>Editar Iconos</li>
-              <li>Editar Imagen</li>
+              <a href={{route('datostbservicios.index',1)}}> <li class="text-primary"><b>Agregar un Nuevo Servicio</b></li> </a>
             </ul>
           </div>
         </a>
@@ -70,10 +70,10 @@
           <div class="cardlinks">
             <h1>Vista Proyectos</h1>
             <ul class="cardlist">
-              <li>Editar la vista principal</li>
+              <a href={{route('datosproyectos.edit', 1 )}}> <li class="text-primary"><b>Editar la vista principal</b></li> </a>
               <li>Editar Proyectos</li>
-              <li>Editar Iconos</li>
-              <li>Editar Imagen</li>
+              <li>Editar Titulos</li>
+              <a href={{route('datostbproyectos.index',1)}}> <li class="text-primary"><b>Agregar un Nuevo Servicio</b></li> </a>
             </ul>
           </div>
         </a>

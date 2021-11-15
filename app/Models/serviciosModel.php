@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class serviciosModel extends Model
 {
+    public $timestamps = false;
     protected $table = "servicios";// <-- El nombre personalizado
 }

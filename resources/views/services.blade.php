@@ -5,7 +5,7 @@
 
 <style>
   .banner-image {
-    background-image: url('img/fondos/{{$datoservicio->img1_servicios}}');
+    background-image: url('storage/{{$datoservicio->img1_servicios}}');
     background-size: cover;
     background-position: center;
   }
@@ -25,7 +25,7 @@
     <div class=" p-5 mb-4 ">
         <div class="container-fluid py-3">
         <h3 class="display-6 fw-bold ">Nuestros servicios </h3>
-        <p class="col-md-10 fs-4">{{$datoservicio->txt_nosotros}}</p>
+        <p class="col-md-10 fs-4">{{$datoservicio->txt_servicios}}</p>
        </div>
     </div>
   </section>

@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class mtablaproyectos extends Model
 {
     use HasFactory;
-   
+    public $timestamps = false;
     protected $table = 'tb_proyectos';// <-- El nombre personalizado
 }
