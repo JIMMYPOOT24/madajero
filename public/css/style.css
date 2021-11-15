@@ -513,26 +513,7 @@ float: left;
   background-color: #402E32;
 }
 /*** !Boton de whatsapp ***/
-.float{
-	position:fixed;
-	width:70px;
-	height:70px;
-	bottom:50px;
-	right:30px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size: 45px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-.float:hover {
-	text-decoration: none;
-	color: #FFFFFF;
-  background-color: #402E32;
-}
-/*** !Boton de whatsapp ***/
+
 
 
 /*** CARDS DASHBOARD HOME***/
@@ -630,6 +611,5 @@ ul.cardlist li {
 }
 
 .colornav{
-background-color: #6d5134;
- 
+background-color: #6d5134; 
 }

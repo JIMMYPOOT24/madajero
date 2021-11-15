@@ -30,7 +30,7 @@
     <!-- Navbar  -->
     <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{route('index')}}">
           <img src="img/logos/logo-white.png" alt="logo-white" width="150">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -93,14 +93,14 @@
     <div class="footer-links container">
       <nav class="row justify-content-center">
         <!-- Logo -->
-        <a href="#" class="col-12 col-md-3   text-reset d-flex align-items-center justify-content-center mb-5 mb-md-0">
+        <a href="{{route('index')}}" class="col-12 col-md-3   text-reset d-flex align-items-center justify-content-center mb-5 mb-md-0">
           <img src="/img/logos/logo-color.png" alt="logo madajero" class="img-logo mr-2" height="130">
 
         </a>
         <!-- menu 1 -->
         <ul class="col-8 col-md-3 list-unstyled">
-          <h5 class="font-weight-bold ">Quines somos</h5>
-          <li><a href="#" class="text-reset">Inicio</a></li>
+          <h5 class="font-weight-bold ">Quienes somos</h5>
+          <li><a href="{{route('index')}}" class="text-reset">Inicio</a></li>
           <li><a href="#" class="text-reset">Nosotros</a></li>
           <li><a href="#" class="text-reset">Servicios</a></li>
           <li><a href="#" class="text-reset">Proyectos</a></li>
@@ -117,15 +117,11 @@
         <!-- Contáctanos y redes sociales -->
         <ul class="col-8 col-md-3 list-unstyled">
           <h5 class="font-weight-bold ">Contáctanos</h5>
-          <li></i><a href="#" class="text-reset">983-100-1010</a> <i class="fas fa-phone-alt"></i></li>
-          <li></i><a href="#" class="text-reset">Correo@ejemplo.com</a> <i class="far fa-envelope"></i></li>
+          <li></i><a class="text-reset">983-100-1010</a> <i class="fas fa-phone-alt"></i></li>
+          <li></i><a class="text-reset">Correo@ejemplo.com</a> <i class="far fa-envelope"></i></li>
           <li class="iconos d-flex py-3">
             <!-- Facebook -->
             <a href="#" class="text-reset"><i class="fab fa-facebook"></i></a>
-            <!-- Twitter -->
-            <a href="#" class="text-reset"><i class="fab fa-twitter"></i></a>
-            <!-- Instagram -->
-            <a href="#" class="text-reset"><i class="fab fa-instagram"></i></a>
           </li>
         </ul>
       </nav>
