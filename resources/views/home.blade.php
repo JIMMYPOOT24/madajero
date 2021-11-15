@@ -216,29 +216,19 @@
     </div>
   </div>
     <div class="clientes-h container">
-      <div class="col-lg-3 col-md-5 col-xs-6 mb-4">
-        <div>
-          <img src="img/logos/{{$datocliente1->logo}}" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-5 col-xs-6 mb-4">
-        <div>
-          <img src="img/logos/{{$datocliente2->logo}}" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-5 col-xs-6 mb-4">
-        <div>
-          <img src="img/logos/{{$datocliente3->logo}}" alt="">
-        </div>
-      </div>
+      @forelse ($clientes as $item)
+          
       
-      <div class="col-lg-3 col-md-5 col-xs-6 mb-4">
-          <div>
-            <img src="img/logos/{{$datocliente4->logo}}" alt="">
-          </div>
+      <div class="col-lg-3 col-md-5 col-xs-6 mb-4 @if ($loop->index==0) active @endif ">
+        <div>
+          <img src="storage/{{$item->logo}}" alt="">
+        </div>
       </div>
+
+      @empty
+          
+      @endforelse
+    </div>
 
       
 

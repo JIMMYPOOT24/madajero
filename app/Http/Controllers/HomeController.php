@@ -35,6 +35,8 @@ class HomeController extends Controller
         $datocliente3 = mclientes::find(3);
         $datocliente4 = mclientes::find(4);
 
+        $clientes = mclientes::paginate(5);
+
 
         
        
@@ -42,6 +44,6 @@ class HomeController extends Controller
       
         return view ('home', compact('datosinicio','datoservicio1','datoservicio2','datoservicio3','datoservicio4', 'datonosotros','datoproyecto1',
         'datoproyecto2', 'datoproyecto3', 'datoproyecto4','datoproyecto5','datoproyecto6','datocliente1','datocliente2',
-    'datocliente3','datocliente4'));
+    'datocliente3','datocliente4','clientes'));
     }
 }

@@ -20,8 +20,7 @@
             <ul class="cardlist">
             <a href={{route('datosinicio.edit', 1 )}}> <li class="text-primary"><b>Editar la vista principal</b></li> </a>
             <li>Cambiar Slogan</li>
-            <li>Otros</li>
-
+            <a href={{route('datostbclientes.index', 1 )}}> <li class="text-primary"><b>Editar Clientes</b></li> </a>
             <a href={{route('datoscertificaciones.index')}}><li class="text-primary"><b>Editar Carrusel de Imagenes</b></li></a>
       
              
