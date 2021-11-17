@@ -69,7 +69,7 @@
 
 
   <!-- slider de certificacion  -->
- <section id="carouselExampleCaptions" class="carousel slide">
+ <section id="carouselExampleCaptions" class="carousel slide ">
 
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
@@ -82,9 +82,9 @@
       @forelse ($banner as $item)
           
       <div class="carousel-item  @if ($loop->index==0) active @endif ">
-        <img src="storage/{{ $item->url_img}}" class="d-block dimensonCarousel img-fluid" alt="..."  >
-        <div class="carousel-caption d-none d-md-block">
-          <h4>{{ $item->titulo}}</h4>
+        <img src="storage/{{ $item->url_img}}" class="d-block" alt="..."  >
+        <div class="carousel-caption">
+          <h3>{{ $item->titulo}}</h3>
         </div>
        
       </div>
