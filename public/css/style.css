@@ -286,17 +286,25 @@ text-align: center;
    
       /** slider pestaña nosotros **/
       
-    .dimensonCarousel {
+    .carousel-item img{
       width: 100%;
-      height: 738px;
-      align-items: center;
+      object-fit: cover;
+      height: 100%;
+      object-position: center;
+      
     }
-    .text-slider h4{
-      color: #996633;
-      font-size: 40px;
-      font-family: 'Raleway', sans-serif;
-      font-weight: bolder;
-    }
+      .carousel-item{
+          
+          width: 100%;
+          height: 250px;
+      }
+      .carousel-caption {
+          top: 40%;
+          color: #996633;
+          font-size: 40px;
+          font-family: 'Raleway', sans-serif;
+           font-weight: bolder;
+      }
 
     /* !pestaña nosotros */
 
