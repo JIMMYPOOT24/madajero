@@ -22,9 +22,6 @@
             <li>Cambiar Slogan</li>
             <a href={{route('datostbclientes.index', 1 )}}> <li class="text-primary"><b>Editar Clientes</b></li> </a>
             <li>Cambiar Contador</li>
-           
-      
-             
             </ul>
           </div>
         </a>
@@ -73,7 +70,7 @@
               <a href={{route('datosproyectos.edit', 1 )}}> <li class="text-primary"><b>Editar la vista principal</b></li> </a>
               <li>Editar Proyectos</li>
               <li>Editar Titulos</li>
-              <a href={{route('datostbproyectos.index',1)}}> <li class="text-primary"><b>Agregar un Nuevo Servicio</b></li> </a>
+              <a href={{route('datostbproyectos.index',1)}}> <li class="text-primary"><b>Agregar un Nuevo Proyecto</b></li> </a>
             </ul>
           </div>
         </a>
