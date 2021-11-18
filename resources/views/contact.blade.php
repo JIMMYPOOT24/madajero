@@ -23,64 +23,47 @@
 
 <section class="contact-us" id="contact">
   <div class="container">
-    
-        
+       
       <!-- Contact Form -->
       <div class="contact-form">
 
-
         <form id="contact-form" method="post" role="form">
 
-
           <div class="row g-4 texto-mensaje">
-
             <div class="col-12 col-md-6 ">
-
               <div class="form-group cajadist">
                 <h1>Nombre y Apellido</h1>
                 <input type="text" placeholder="Nombre Completo" class="form-control cotact-caja" name="name" id="name">
-              </div>
-              
+              </div>    
               <div class="form-group cajadist">
                 <h1>Correo Eléctronico</h1>
                 <input type="email" placeholder="Correo Eléctronico" class="form-control" name="email" id="email">
-              </div>
-              
+              </div>     
               <div class="form-group cajadist">
                 <h1>Numero de contacto</h1>
                 <input type="text" placeholder="Número de Teléfono" class="form-control" name="number" id="number">
               </div>
-
             </div>
-  
             <div class="col-12 col-md-6 ">
               <div class="form-group">
                 <h1 class="text-center" >Mensaje</h1>
                 <textarea rows="6" placeholder="Escribe aquí tu mensaje" class="form-control" name="message" id="message"></textarea>	
               </div>
             </div>
-  
           <div id="success" class="success">
             Gracias por ponerte en contacto. Tu mensaje esta en camino.
-          </div>
-          
+          </div>      
           <div id="error" class="error">
             Lo sentimos, algo no esta bien. Por favor intentalo mas tarde.
           </div>
-
           <div id="cf-submit">
             <input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
-          </div>
-          
-        </div>
-          
+          </div>     
+        </div> 
         </form>
       </div>
   </div>
 </section>
-
-
-
 
 
 @endsection
