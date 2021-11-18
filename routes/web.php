@@ -66,3 +66,6 @@ Route::get('/nosotros', [AboutController::class, 'about'])->name('nosotros');
 Route::get('/servicios', [serviciosController::class, 'index'])->name('servicios');
 Route::get('/proyectos', [proyectosController::class, 'index'])->name('proyectos');
 Route::get('/contactanos', [contactanosController::class, 'index'])->name('contactanos');
+
+//Route por el cual se mandara el correo
+Route::post('/contactanos', [contactanosController::class, 'store'])->name('contactanos.store');

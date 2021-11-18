@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\ContactanosMailable;
+use Illuminate\Support\Facades\Mail;
 
 class contactanosController extends Controller
 {
@@ -34,8 +36,32 @@ class contactanosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
+        //Validaciones del formulario 
+        $request->validate([
+
+            'name' => 'required',
+            'number' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
+
+        ]);
+
+        //Pasar informacion al constructor desde el form con requst
+        $correo = new ContactanosMailable($request->all());
+        Mail::to('sansoreschay@gmail.com')->send($correo);
+
+        return redirect()->route('contactanos');
+
+
+        
+
+        
+
+        
     }
+
+    
 
     /**
      * Display the specified resource.
