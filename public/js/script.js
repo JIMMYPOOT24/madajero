@@ -36,7 +36,7 @@ function counter() {
 
 /* Validacion de formulario */
 
-$('#contact-form').validate({
+/* $('#contact-form').validate({
   rules: {
     name: {
       required: true,
@@ -79,4 +79,4 @@ $('#contact-form').validate({
   }
 }
 
-);
+); */

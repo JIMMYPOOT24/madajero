@@ -27,7 +27,9 @@
       <!-- Contact Form -->
       <div class="contact-form">
 
-        <form id="contact-form" method="post" role="form">
+
+        <form action="{{route('contactanos.store')}}" id="contact-form" method="post" role="form">
+          @csrf
 
           <div class="row g-4 texto-mensaje">
             <div class="col-12 col-md-6 ">
@@ -56,6 +58,7 @@
           <div id="error" class="error">
             Lo sentimos, algo no esta bien. Por favor intentalo mas tarde.
           </div>
+         
           <div id="cf-submit">
             <input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
           </div>     
