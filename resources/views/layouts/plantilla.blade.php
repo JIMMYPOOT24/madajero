@@ -19,7 +19,11 @@
     <link href="http://fonts.cdnfonts.com/css/avenir-lt-std" rel="stylesheet">
     <!-- CDN Boton de whatsapp  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  
+    <!-- CDN sweetalert  -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- CDN Ajax  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <title>@yield('title')</title>
 </head>
@@ -150,8 +154,9 @@
 
 
  <!-- Form Validation -->
- <script src="js/jquery.form.js"></script> 
- <script src="js/jquery.validate.min.js"></script>
+ <script src="js/enviar.js"></script> 
+ <script src="js/sweetAlert.js"></script>
+ 
 
  <!-- Custom js -->
  <script src="js/script.js"></script>

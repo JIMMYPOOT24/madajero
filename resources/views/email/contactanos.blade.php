@@ -39,7 +39,6 @@
                     <h3>Numero telefonico: {{$contacto['number']}}    </h3>
                     <h3>Correo electronico:   {{$contacto['email']}}       </h3>
                     <h3>Mensaje:  {{$contacto['message']}}      </h3>
-
         </div>
 
 

@@ -28,7 +28,7 @@
       <div class="contact-form">
 
 
-        <form action="{{route('contactanos.store')}}" id="contact-form" method="post" role="form">
+        <form action="{{route('contactanos.store')}}" id="contact-form" method="post" role="form" class="contact-form">
           @csrf
 
           <div class="row g-4 texto-mensaje">
@@ -52,16 +52,10 @@
                 <textarea rows="6" placeholder="Escribe aquí tu mensaje" class="form-control" name="message" id="message"></textarea>	
               </div>
             </div>
-          <div id="success" class="success">
-            Gracias por ponerte en contacto. Tu mensaje esta en camino.
-          </div>      
-          <div id="error" class="error">
-            Lo sentimos, algo no esta bien. Por favor intentalo mas tarde.
-          </div>
          
           <div id="cf-submit">
-            <input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
-          </div>     
+            <input type="submit" id="contactSubmit" class="btn btn-transparent" value="Enviar">
+          </div> 
         </div> 
         </form>
       </div>
