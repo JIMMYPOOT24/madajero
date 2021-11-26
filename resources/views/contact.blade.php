@@ -15,7 +15,7 @@
 <section class="banner-image">
   <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="content text-center">
-      <h1 class="text-white text-center">Contactenos</h1>
+      <h1 class="text-white text-center">Contáctenos</h1>
       <h1 class="text-white text-center">Para todas sus dudas y aclaraciones</h1>
     </div>
   </div>
@@ -42,7 +42,7 @@
                 <input type="email" placeholder="Correo Eléctronico" class="form-control" name="email" id="email">
               </div>     
               <div class="form-group cajadist">
-                <h1>Numero de contacto</h1>
+                <h1>Número de contacto</h1>
                 <input type="text" placeholder="Número de Teléfono" class="form-control" name="number" id="number">
               </div>
             </div>

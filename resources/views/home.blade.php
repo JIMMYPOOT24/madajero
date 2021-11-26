@@ -28,8 +28,8 @@
       <div class="p-5 mb-4 ">
         <div class="row">
           <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <h2 class="col-md-10">Ingenieria es lo que hacemos</h2>
-            <h3 class="display-6 fw-bold ">Grupo Constructor Madajero proyectos de calidad </h3>
+            <h2 class="col-md-10">Ingeniería es lo que hacemos</h2>
+            <h3 class="display-6 fw-bold ">Grupo Constructor Madajero Proyectos de calidad </h3>
           </div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
             <div class="aliboton">

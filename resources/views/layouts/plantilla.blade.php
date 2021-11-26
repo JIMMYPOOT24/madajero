@@ -115,7 +115,7 @@
           <h5 class="font-weight-bold ">Servicios</h5>
           <li><a href="{{route('servicios')}}" class="text-reset">Elaboración de proyectos ejecutivos</a></li>
           <li><a href="{{route('servicios')}}"class="text-reset">Integración y planeación de proyectos</a></li>
-          <li><a href="{{route('servicios')}}" class="text-reset">Coordinación y supervición de obras</a></li>
+          <li><a href="{{route('servicios')}}" class="text-reset">Coordinación y supervisión de obras</a></li>
           <li><a href="{{route('servicios')}}" class="text-reset">Ejecución de obras</a></li>
         </ul>
         <!-- Contáctanos y redes sociales -->
