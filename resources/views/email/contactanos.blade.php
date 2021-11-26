@@ -36,8 +36,8 @@
       
         <div style="font-family:sans-serif;line-height:17px;color:#333333; text-align: justify; padding-top: 10px; padding-left:30px; padding-right:30px;">
                     <h3>Nombre:   {{$contacto['name']}}       </h3>
-                    <h3>Numero telefonico: {{$contacto['number']}}    </h3>
-                    <h3>Correo electronico:   {{$contacto['email']}}       </h3>
+                    <h3>Número Telefonico: {{$contacto['number']}}    </h3>
+                    <h3>Correo Eléctronico:   {{$contacto['email']}}       </h3>
                     <h3>Mensaje:  {{$contacto['message']}}      </h3>
         </div>
 
