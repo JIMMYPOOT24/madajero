@@ -45,12 +45,14 @@
         
         <img src="storage/{{$servicios->url_img}}" alt="icono-proyectos-ejecutivos ">
         <h4>{{$servicios->categoria}}</h4>
-        <ul style= "list-style-type: square">
-          <li><p>{{$servicios->servicio1}}</p></li>
-          <li><p>{{$servicios->servicio2}}</p></li>
-          <li><p>{{$servicios->servicio3}}</p></li>
-          <li><p>{{$servicios->servicio4}}</p></li>
-          <li><p>{{$servicios->servicio5}}</p></li>
+        <ul>
+          <br>
+          <br>
+          <p>{{$servicios->servicio1}}</p>
+          <p>{{$servicios->servicio2}}</p>
+          <p>{{$servicios->servicio3}}</p>
+          <p>{{$servicios->servicio4}}</p>
+          <p>{{$servicios->servicio5}}</p></li>
         </ul>
         </div>
        
