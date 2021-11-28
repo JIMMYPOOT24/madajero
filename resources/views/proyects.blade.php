@@ -26,7 +26,7 @@
      <div class=" p-5 mb-4 ">
          <div class="container-fluid py-3">
          <h3 class="display-6 fw-bold ">Nuestros proyectos </h3>
-         <h2 class="col-md-10 fs-4">{{$datosproyecto->txt_proyectos}}</h2>
+         <h2 class="col-md-10 fs-5">{{$datosproyecto->txt_proyectos}}</h2>
         </div>
      </div>
    </section>

@@ -16,7 +16,11 @@
         <tr>
             <th>#</th>
             <th>Nombre del proyecto</th>
-            <th>Imagen</th>
+            <th>Imagen 1</th>
+            <th>Imagen 2</th>
+            <th>Imagen 3</th>
+            <th>Imagen 4</th>
+            <th>Imagen 5</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -25,7 +29,12 @@
         <tr>
             <td>{{$loop->iteration}}</td>
             <td>{{$banne->titulo}}</td>
-            <td><img src="{{ asset('storage'). '/' . $banne->url_img}}" width="25%" class="img-thumbnail" alt="Imagen del cliente"></td>
+            <td><img src="{{ asset('storage'). '/' . $banne->url_img}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
             <td>
                 <a href="{{route('datostbproyectos.edit', $banne->id )}}"><button
                         class="btn btn-sm btn-primary">Editar</button></a>
