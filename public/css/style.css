@@ -307,6 +307,12 @@ text-align: center;
           font-weight: bold;
       }
 
+      .container-fluid{
+        width: 45%;
+        height: 90%;
+        object-position: center;
+      }
+
     /* !pestaña nosotros */
       
 

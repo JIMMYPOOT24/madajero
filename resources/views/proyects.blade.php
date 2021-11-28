@@ -13,6 +13,7 @@
 
    
  </style>
+
  <!-- Banner Image heroes  -->
  <section class="banner-image">
    <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
@@ -30,10 +31,10 @@
         </div>
      </div>
    </section>
-<section class="gallery min-vh-100">
-<div class="container-lg">
-  <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
 
+<<<<<<< HEAD
+   <!-- Carousel proyectos -->
+=======
    @foreach ($datostbproyecto  as $proyectos)
      <div class="col">
       
@@ -44,7 +45,49 @@
   </div>
  
 </div>
+>>>>>>> 550b2505999fd095293037930ef7989baecf2423
 
-</section> 
+<section id="carouselProyectos">
+  <div id="demo" class="carousel slide container-fluid" data-bs-ride="carousel">
+  
+    <div class="titulo">
+      <h1>Tao residencial</h1>
+    </div>
+  
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner carousel">
+      <div class="carousel-item active">
+        <img src="img/fondo1.jpg" alt="" class="d-block" >
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/imagenlarga.jpg" alt="" class="d-block" >
+        <div class="carousel-caption">
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="img/fondo3.jpg" alt="" class="d-block">
+        <div class="carousel-caption">
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  </section>
 
 @endsection
