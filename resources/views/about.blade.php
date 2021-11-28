@@ -16,7 +16,7 @@
 <section id="banner-image" class="banner-image">
   <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="content text-center">
-      <h1 >Nosotros</h1>
+      <h1 class="fw-bolder">Nosotros</h1>
     </div>
   </div>
 </section>
@@ -72,7 +72,8 @@
  <section id="carouselExampleCaptions" class="carousel slide ">
 
   <div class= "titulo mb-2"> 
-    <h1>Certificiones</h1>
+    <h1>Certificaciones</h1>
+    <br>
   </div>
 
     <div class="carousel-indicators">

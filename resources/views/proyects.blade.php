@@ -8,14 +8,17 @@
      background-image: url('storage/{{$datosproyecto->img1_proyectos}}');
      background-size: cover;
      background-position: center;
+     opacity: 95%;
    }
+
+   
  </style>
 
  <!-- Banner Image heroes  -->
  <section class="banner-image">
    <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
      <div class="content text-center">
-       <h1 class="text-white text-xl-center">Proyectos</h1>
+       <h1 class="text-white text-2xl-center fw-bolder text-end">Proyectos</h1>
      </div>
    </div>
  </section>
@@ -29,7 +32,20 @@
      </div>
    </section>
 
+<<<<<<< HEAD
    <!-- Carousel proyectos -->
+=======
+   @foreach ($datostbproyecto  as $proyectos)
+     <div class="col">
+      
+        <img src="storage/{{$proyectos->url_img}}" class="gallery-item" alt="gallery"> 
+        <h1 class="text-center fs-4">{{$proyectos->titulo}}</h1>
+     </div>
+     @endforeach
+  </div>
+ 
+</div>
+>>>>>>> 550b2505999fd095293037930ef7989baecf2423
 
 <section id="carouselProyectos">
   <div id="demo" class="carousel slide container-fluid" data-bs-ride="carousel">

@@ -42,7 +42,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-      <div class="collapse navbar-collapse " id="navbarNav">
+      <div class="text-center collapse navbar-collapse " id="navbarNav">
         <div class="mx-auto">    </div>
         <ul class="navbar-nav">
           <li class="nav-item ">
@@ -69,14 +69,16 @@
   <!-- Modal de galeri -->
   <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          
+          <div class="modal-content">
+           
+            <img src="img/gProyectos/2.jpg" class="modal-img img-fluid" alt="modal img">
+            
+          </div>
+          
         </div>
-        <div class="modal-body">
-           <img src="img/gProyectos/2.jpg" class="modal-img" alt="modal img">
-        </div>
-      </div>
+     
     </div>
   </div>
 
