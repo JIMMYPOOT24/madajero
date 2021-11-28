@@ -17,7 +17,7 @@
  <section class="banner-image">
    <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
      <div class="content text-center">
-       <h1 class="text-white text-xl-center fw-bolder text-end">Proyectos</h1>
+       <h1 class="text-white text-2xl-center fw-bolder text-end">Proyectos</h1>
      </div>
    </div>
  </section>
@@ -36,7 +36,9 @@
 
    @foreach ($datostbproyecto  as $proyectos)
      <div class="col">
+      
         <img src="storage/{{$proyectos->url_img}}" class="gallery-item" alt="gallery"> 
+        <h1 class="text-center fs-4">{{$proyectos->titulo}}</h1>
      </div>
      @endforeach
   </div>

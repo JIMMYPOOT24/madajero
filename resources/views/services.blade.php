@@ -15,7 +15,7 @@
 <section class="banner-image">
   <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="content text-center">
-      <h1 class="text-white text-xl-center">Servicios</h1>
+      <h1 class="text-white text-2xl-center fw-bolder">Servicios</h1>
     </div>
   </div>
 </section>
@@ -44,15 +44,15 @@
         <i class="bi bi-bar-chart"></i>
         
         <img src="storage/{{$servicios->url_img}}" alt="icono-proyectos-ejecutivos ">
-        <h4>{{$servicios->categoria}}</h4>
+        <h4 class="container">{{$servicios->categoria}}</h4>
         <ul>
           <br>
           <br>
-          <p>{{$servicios->servicio1}}</p>
-          <p>{{$servicios->servicio2}}</p>
-          <p>{{$servicios->servicio3}}</p>
-          <p>{{$servicios->servicio4}}</p>
-          <p>{{$servicios->servicio5}}</p></li>
+          <p class="fs-5">{{$servicios->servicio1}}</p>
+          <p class="fs-5">{{$servicios->servicio2}}</p>
+          <p class="fs-5">{{$servicios->servicio3}}</p>
+          <p class="fs-5">{{$servicios->servicio4}}</p>
+          <p class="fs-5">{{$servicios->servicio5}}</p></li>
         </ul>
         </div>
        

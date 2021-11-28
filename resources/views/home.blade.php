@@ -174,119 +174,41 @@
 
 <!-- Proyectos  -->
 <section id="proyectos-home" class="titulo subtitulo fondoGriss">
-  <div class="container">
-    <!--image row start-->
-    <div class="row">
-      <!--image card start-->
-      <div class="image">
-        <img src="storage/{{$datoproyecto1->url_img}}" class="img-fluid rounded-2" alt="">
-        <div class="details">
-         
-          <div class="more">
-            <a href="#" class="read-more"><span>{{$datoproyecto1->titulo}}</span></a>
-            <div class="icon-links">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <a href="#"><i class="fas fa-eye"></i></a>
-              <a href="#"><i class="fas fa-paperclip"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--image card end-->
-      <!--image card start-->
-      <div class="image">
-        <img src="2.jpg" alt="">
-        <div class="details">
-          <h2>Your <span>Title</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="more">
-            <a href="#" class="read-more">Read <span>More</span></a>
-            <div class="icon-links">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <a href="#"><i class="fas fa-eye"></i></a>
-              <a href="#"><i class="fas fa-paperclip"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--image card end-->
-      <!--image card start-->
-      <div class="image">
-        <img src="3.jpg" alt="">
-        <div class="details">
-          <h2>Your <span>Title</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="more">
-            <a href="#" class="read-more">Read <span>More</span></a>
-            <div class="icon-links">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <a href="#"><i class="fas fa-eye"></i></a>
-              <a href="#"><i class="fas fa-paperclip"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--image card end-->
-    </div>
-    <!--image row end-->
-    <!--image row start-->
-    <div class="row">
-      <!--image card start-->
-      <div class="image">
-        <img src="4.jpg" alt="">
-        <div class="details">
-          <h2>Your <span>Title</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="more">
-            <a href="#" class="read-more">Read <span>More</span></a>
-            <div class="icon-links">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <a href="#"><i class="fas fa-eye"></i></a>
-              <a href="#"><i class="fas fa-paperclip"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--image card end-->
-      <!--image card start-->
-      <div class="image">
-        <img src="5.jpg" alt="">
-        <div class="details">
-          <h2>Your <span>Title</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="more">
-            <a href="#" class="read-more">Read <span>More</span></a>
-            <div class="icon-links">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <a href="#"><i class="fas fa-eye"></i></a>
-              <a href="#"><i class="fas fa-paperclip"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--image card end-->
-      <!--image card start-->
-      <div class="image">
-        <img src="6.jpg" alt="">
-        <div class="details">
-          <h2>Your <span>Title</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="more">
-            <a href="#" class="read-more">Read <span>More</span></a>
-            <div class="icon-links">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <a href="#"><i class="fas fa-eye"></i></a>
-              <a href="#"><i class="fas fa-paperclip"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--image card end-->
-    </div>
-    <!--image row end-->
+  <div class="text-proyectos p-3 text-center">
+    <br>
+    <h1>Nuestros proyectos</h1>
   </div>
+  <div class="gallery min-vh-100 container-lg py-3">
+    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <div class="">
+        <img src="storage/{{$datoproyecto1->url_img}}" class="gallery-item" alt="gallery">
+      </div>
+      <div class="">
+        <img src="storage/{{$datoproyecto2->url_img}}" class="gallery-item" alt="gallery">
+      </div>
+      <div class="">
+        <img src="storage/{{$datoproyecto3->url_img}}" class="gallery-item" alt="gallery">
+      </div>
+      <div class="">
+        <img src="storage/{{$datoproyecto4->url_img}}" class="gallery-item" alt="gallery">
+      </div>
+      <div class="">
+        <img src="storage/{{$datoproyecto5->url_img}}" class="gallery-item" alt="gallery">
+      </div>
+      <div class="">
+        <img src="storage/{{$datoproyecto6->url_img}}" class="gallery-item" alt="gallery">
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="aliboton">
+      <a class="btn btn-main" href="{{url('proyectos')}}">Saber más</a>
+    </div>
+  </div>
+  
 </section>
 <!-- Proyectos  -->
+
 
 <!-- Clientes  -->
 
