@@ -98,7 +98,7 @@
       <nav class="row justify-content-center">
         <!-- Logo -->
         <a href="{{route('index')}}" class="col-12 col-md-3   text-reset d-flex align-items-center justify-content-center mb-5 mb-md-0">
-          <img src="/img/logos/logo-color1.png" alt="logo madajero" class="img-logo mr-2" height="150">
+          <img src="/img/logos/logo-color1.png" alt="logo madajero" class="img-logo mr-2" height="155">
 
         </a>
         <!-- menu 1 -->

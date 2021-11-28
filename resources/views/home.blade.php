@@ -211,8 +211,7 @@
 <section id="clientes-home" class="titulo subtitulo">
   <div class="container">
     <div class="text-clientes p-3 text-center">
-      <h2>Nuestros clientes</h2>
-      <h1>Creemos que cada cliente es una asociacion a largo plazo</h1>
+      <h1>Nuestros clientes</h1>
     </div>
   </div>
     <div class="clientes-h container">
