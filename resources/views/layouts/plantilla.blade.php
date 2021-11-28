@@ -74,7 +74,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-           <img src="img/gProyectos/2.jpg" class="modal-img" alt="modal img">
+           <img src="img/gProyectos/2.jpg" class="modal-img img-fluid" alt="modal img">
         </div>
       </div>
     </div>

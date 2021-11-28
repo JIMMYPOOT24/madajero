@@ -8,13 +8,16 @@
      background-image: url('storage/{{$datosproyecto->img1_proyectos}}');
      background-size: cover;
      background-position: center;
+     opacity: 95%;
    }
+
+   
  </style>
  <!-- Banner Image heroes  -->
  <section class="banner-image">
    <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
      <div class="content text-center">
-       <h1 class="text-white text-xl-center">Proyectos</h1>
+       <h1 class="text-white text-xl-center fw-bolder text-end">Proyectos</h1>
      </div>
    </div>
  </section>
