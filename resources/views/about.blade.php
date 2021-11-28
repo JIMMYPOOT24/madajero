@@ -70,9 +70,11 @@
 
   <!-- slider de certificacion  -->
  <section id="carouselExampleCaptions" class="carousel slide ">
-  
-  <h1 class="titulo">Certificaciones</h1>
-  <br>
+
+  <div class= "titulo mb-2"> 
+    <h1>Certificiones</h1>
+  </div>
+
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
