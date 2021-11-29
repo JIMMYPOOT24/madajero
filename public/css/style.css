@@ -207,6 +207,14 @@ text-align: center;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  
+}
+
+.clientes-h img{
+          width: 100%;
+          object-fit: cover;
+          height: 100%;
+          object-position: center;
 }
 
 /**************************** !Home******************************/

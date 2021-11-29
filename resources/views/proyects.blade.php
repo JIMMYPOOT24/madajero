@@ -27,7 +27,7 @@
         .divider{
           width: 100px;
           height: 3px;
-          background-color: #996633;
+          background-color: #F2962F;;
           display: inline-block;
 
 

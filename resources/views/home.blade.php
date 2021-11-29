@@ -116,7 +116,7 @@
   <div class="container p-5 mb-4">
     <div class="row">
       <div class="col-lg-6 order-1 order-lg-2 " data-aos="fade-left" data-aos-delay="100">
-        <img src="storage/{{$datosinicio->img2_inicio}}" class="img-fluid redondo" alt="">
+        <img src="storage/{{$datosinicio->img2_inicio}}" class="img-fluid redondo" alt="imagen clientes">
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
         <h1>Nosotros</h1>
@@ -224,9 +224,9 @@
       @forelse ($clientes as $item)
           
       
-      <div class="col-lg-3 col-md-5 col-xs-6 mb-4 @if ($loop->index==0) active @endif ">
+      <div class="col-lg-2 col-md-4 col-xs-8 mb-4 @if ($loop->index==0) active @endif ">
         <div>
-          <img src="storage/{{$item->logo}}" alt="">
+          <img src="storage/{{$item->logo}}" alt="" >
         </div>
       </div>
 
