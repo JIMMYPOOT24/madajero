@@ -92,12 +92,8 @@
     </div>
     @endforeach
        
-      <script>
-        
-     
-
-      </script>
-    
+    <br>
+    <br>
     
     </section> 
 @endsection

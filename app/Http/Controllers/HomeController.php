@@ -36,7 +36,7 @@ class HomeController extends Controller
         $datocliente2 = mclientes::find(2);
         $datocliente3 = mclientes::find(3);
         $datocliente4 = mclientes::find(4);
-        $clientes = mclientes::paginate(5);
+        $clientes = mclientes::paginate();
 
       //Devolver la coleccion de datos a la vista
         return view ('home', compact('datosinicio','datoservicio1','datoservicio2','datoservicio3','datoservicio4', 'datonosotros','datoproyecto1',
