@@ -198,8 +198,7 @@
       <div class="">
         <img src="storage/{{$datoproyecto2->url_img6}}" class="gallery-item" alt="gallery">
       </div>
-     
-     
+    
     </div>
     <br>
     <br>
@@ -220,19 +219,16 @@
       <h1>Nuestros clientes</h1>
     </div>
   </div>
+  @foreach ($clientes as $item)
     <div class="clientes-h container">
-      @forelse ($clientes as $item)
-          
       
-      <div class="col-lg-2 col-md-4 col-xs-8 mb-4 @if ($loop->index==0) active @endif ">
+      <div class="col-lg-2 col-md-4 col-xs-8 mb-4  active  ">
         <div>
           <img src="storage/{{$item->logo}}" alt="logo clientes" >
         </div>
       </div>
 
-      @empty
-          
-      @endforelse
+      @endforeach
     </div>
 
   
