@@ -233,7 +233,7 @@
           
       @endforelse
     </div>
-    @endforeach
+   
   
 </section>
 
