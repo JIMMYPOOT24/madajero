@@ -53,6 +53,9 @@ class tbproyectosController extends Controller
         if ($request->hasFile('url_img5')) {
             $datostbproyectos ['url_img5'] = $request->file('url_img5')->store('images', 'public');
         }
+        if ($request->hasFile('url_img6')) {
+            $datostbproyectos ['url_img6'] = $request->file('url_img6')->store('images', 'public');
+        }
 
         mtablaproyectos::insert( $datostbproyectos);
         return redirect('/datostbproyectos');
@@ -118,6 +121,10 @@ class tbproyectosController extends Controller
         }
         if ($request->hasFile('url_img5')) {
             $datostbproyectos['url_img5'] = $request->file('url_img5')->store('images', 'public');
+            $datostbproyectos->update();
+        }
+        if ($request->hasFile('url_img6')) {
+            $datostbproyectos['url_img6'] = $request->file('url_img6')->store('images', 'public');
             $datostbproyectos->update();
         }
 

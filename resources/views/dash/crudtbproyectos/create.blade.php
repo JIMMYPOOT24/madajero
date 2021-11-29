@@ -55,6 +55,14 @@
         </div>
     </div>
 
+    <div class="mb-3 mt-4">
+
+        <div class="mb-3">
+            <label for="url_img6" class="form-label fw-bold text-primary ">Imagen 6:</label>
+            <input type="file" name="url_img6" id="url_img6" class="form-control" value="">
+        </div>
+    </div>
+
     <br>
     <a href="/datostbproyectos" class="btn btn-secondary">Cancelar</a>
     <input type="submit" class="btn btn-primary" value="Agregar">

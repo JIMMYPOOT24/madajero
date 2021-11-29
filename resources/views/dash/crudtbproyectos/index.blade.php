@@ -21,6 +21,7 @@
             <th>Imagen 3</th>
             <th>Imagen 4</th>
             <th>Imagen 5</th>
+            <th>Imagen 6</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -34,6 +35,7 @@
             <td><img src="{{ asset('storage'). '/' . $banne->url_img3}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
             <td><img src="{{ asset('storage'). '/' . $banne->url_img4}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
             <td><img src="{{ asset('storage'). '/' . $banne->url_img5}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
+            <td><img src="{{ asset('storage'). '/' . $banne->url_img6}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
 
             <td>
                 <a href="{{route('datostbproyectos.edit', $banne->id )}}"><button

@@ -72,6 +72,16 @@
             <input type="file" value="" class="form-control-file" name="url_img5" id="url_img">
         </div>
     </div>
+    <div class="mb-4 mt-6">
+
+        <label for="url_img6" class="form-label fw-bold text-primary">Imagen 6:</label>
+     <div class="container ml-1">
+        <img src="{{ asset('storage'). '/' .  $datostbproyectos->url_img6}}"  width="400" height="400" class="imgcrud img-thumbnail"
+            alt="Imagen">
+        <div class="card-body" >
+            <input type="file" value="" class="form-control-file" name="url_img6" id="url_img">
+        </div>
+    </div>
     
 
     <a href={{route('datostbproyectos.index', 1 )}} class="btn btn-secondary">Volver</a>

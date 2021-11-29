@@ -184,8 +184,21 @@
         <img src="storage/{{$datoproyecto1->url_img}}" class="gallery-item" alt="gallery">
       </div>
       <div class="">
-        <img src="storage/{{$datoproyecto2->url_img}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto2->url_img2}}" class="gallery-item" alt="gallery">
       </div>
+      <div class="">
+        <img src="storage/{{$datoproyecto2->url_img3}}" class="gallery-item" alt="gallery">
+      </div>
+      <div class="">
+        <img src="storage/{{$datoproyecto2->url_img4}}" class="gallery-item" alt="gallery">
+      </div>
+      <div class="">
+        <img src="storage/{{$datoproyecto2->url_img5}}" class="gallery-item" alt="gallery">
+      </div>
+      <div class="">
+        <img src="storage/{{$datoproyecto2->url_img6}}" class="gallery-item" alt="gallery">
+      </div>
+     
      
     </div>
     <br>
