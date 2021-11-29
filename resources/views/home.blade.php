@@ -219,9 +219,10 @@
       <h1>Nuestros clientes</h1>
     </div>
   </div>
+  @foreach ($clientes as $item)
     <div class="clientes-h container">
       
-      <div class="col-lg-2 col-md-4 col-xs-8 mb-4 @if ($loop->index==0) active @endif ">
+      <div class="col-lg-2 col-md-4 col-xs-8 mb-4  active  ">
         <div>
           <img src="storage/{{$item->logo}}" alt="" >
         </div>
