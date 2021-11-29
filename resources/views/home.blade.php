@@ -228,9 +228,9 @@
         </div>
       </div>
 
-      @endforeach
+      
     </div>
-
+    @endforeach
   
 </section>
 
