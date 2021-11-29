@@ -226,7 +226,7 @@
       
       <div class="col-lg-2 col-md-4 col-xs-8 mb-4 @if ($loop->index==0) active @endif ">
         <div>
-          <img src="storage/{{$item->logo}}" alt="" >
+          <img src="storage/{{$item->logo}}" alt="logo clientes" >
         </div>
       </div>
 
