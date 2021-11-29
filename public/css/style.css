@@ -296,7 +296,7 @@ text-align: center;
     }
       .carousel-item{
           width: 100%;
-          height: 350px;
+          height: 500px;
       }
       .carousel-caption{
           top: 40%;
@@ -307,11 +307,7 @@ text-align: center;
           font-weight: bold;
       }
 
-      .container-fluid{
-        width: 45%;
-        height: 90%;
-        object-position: center;
-      }
+
 
     /* !pestaña nosotros */
       
@@ -766,3 +762,7 @@ background-color: #6d5134;
 	}
 }
       
+
+
+
+

@@ -17,8 +17,9 @@ class proyectosController extends Controller
     {
 
         $datosproyecto = proyectosModel::find(1);
+    
 
-        $datostbproyecto = mtablaproyectos::paginate();
+        $datostbproyecto = mtablaproyectos::paginate(6);
         return view ('proyects', compact('datostbproyecto', 'datosproyecto'));
     }
 

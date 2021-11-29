@@ -70,32 +70,24 @@
 
   <!-- slider de certificacion  -->
  <section id="carouselExampleCaptions" class="carousel slide ">
-
   <div class= "titulo mb-2"> 
     <h1>Certificaciones</h1>
     <br>
   </div>
-
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
     </div>
-
     <div class="carousel-inner">
-
-      @forelse ($banner as $item)
-          
+      @forelse ($banner as $item) 
       <div class="carousel-item  @if ($loop->index==0) active @endif ">
         <img src="storage/{{ $item->url_img}}" class="d-block" alt="..."  >
         <div class="carousel-caption">
           <h3>{{ $item->titulo}}</h3>
         </div>
-       
       </div>
-
       @empty
-          
       @endforelse
     </div>
 

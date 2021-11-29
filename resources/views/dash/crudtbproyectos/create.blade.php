@@ -22,8 +22,36 @@
     <div class="mb-3 mt-4">
 
         <div class="mb-3">
-            <label for="url_img" class="form-label fw-bold text-primary ">Imagen:</label>
+            <label for="url_img" class="form-label fw-bold text-primary ">Imagen 1:</label>
             <input type="file" name="url_img" id="url_img" class="form-control" value="">
+        </div>
+    </div>
+    <div class="mb-3 mt-4">
+
+        <div class="mb-3">
+            <label for="url_img2" class="form-label fw-bold text-primary ">Imagen 2:</label>
+            <input type="file" name="url_img2" id="url_img2" class="form-control" value="">
+        </div>
+    </div>
+    <div class="mb-3 mt-4">
+
+        <div class="mb-3">
+            <label for="url_img3" class="form-label fw-bold text-primary ">Imagen 3:</label>
+            <input type="file" name="url_img3" id="url_img3" class="form-control" value="">
+        </div>
+    </div>
+    <div class="mb-3 mt-4">
+
+        <div class="mb-3">
+            <label for="url_img4" class="form-label fw-bold text-primary ">Imagen 4:</label>
+            <input type="file" name="url_img4" id="url_img4" class="form-control" value="">
+        </div>
+    </div>
+    <div class="mb-3 mt-4">
+
+        <div class="mb-3">
+            <label for="url_img5" class="form-label fw-bold text-primary ">Imagen 5:</label>
+            <input type="file" name="url_img5" id="url_img5" class="form-control" value="">
         </div>
     </div>
 

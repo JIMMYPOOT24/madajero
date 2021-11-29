@@ -41,6 +41,18 @@ class tbproyectosController extends Controller
         if ($request->hasFile('url_img')) {
             $datostbproyectos ['url_img'] = $request->file('url_img')->store('images', 'public');
         }
+        if ($request->hasFile('url_img2')) {
+            $datostbproyectos ['url_img2'] = $request->file('url_img2')->store('images', 'public');
+        }
+        if ($request->hasFile('url_img3')) {
+            $datostbproyectos ['url_img3'] = $request->file('url_img3')->store('images', 'public');
+        }
+        if ($request->hasFile('url_img4')) {
+            $datostbproyectos ['url_img4'] = $request->file('url_img4')->store('images', 'public');
+        }
+        if ($request->hasFile('url_img5')) {
+            $datostbproyectos ['url_img5'] = $request->file('url_img5')->store('images', 'public');
+        }
 
         mtablaproyectos::insert( $datostbproyectos);
         return redirect('/datostbproyectos');
@@ -90,6 +102,28 @@ class tbproyectosController extends Controller
             $datostbproyectos['url_img'] = $request->file('url_img')->store('images', 'public');
             $datostbproyectos->update();
         }
+
+        if ($request->hasFile('url_img2')) {
+            $datostbproyectos['url_img2'] = $request->file('url_img2')->store('images', 'public');
+            $datostbproyectos->update();
+        }
+
+        if ($request->hasFile('url_img3')) {
+            $datostbproyectos['url_img3'] = $request->file('url_img3')->store('images', 'public');
+            $datostbproyectos->update();
+        }
+        if ($request->hasFile('url_img4')) {
+            $datostbproyectos['url_img4'] = $request->file('url_img4')->store('images', 'public');
+            $datostbproyectos->update();
+        }
+        if ($request->hasFile('url_img5')) {
+            $datostbproyectos['url_img5'] = $request->file('url_img5')->store('images', 'public');
+            $datostbproyectos->update();
+        }
+
+
+
+
 
         return view('dash.crudtbproyectos.edit', compact('datostbproyectos'));
     }

@@ -30,10 +30,10 @@
             <td>{{$loop->iteration}}</td>
             <td>{{$banne->titulo}}</td>
             <td><img src="{{ asset('storage'). '/' . $banne->url_img}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><img src="{{ asset('storage'). '/' . $banne->url_img2}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
+            <td><img src="{{ asset('storage'). '/' . $banne->url_img3}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
+            <td><img src="{{ asset('storage'). '/' . $banne->url_img4}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
+            <td><img src="{{ asset('storage'). '/' . $banne->url_img5}}" width="300px"  height= "300px" class="img-thumbnail" alt="Imagen del cliente"></td>
 
             <td>
                 <a href="{{route('datostbproyectos.edit', $banne->id )}}"><button

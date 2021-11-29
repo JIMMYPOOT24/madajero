@@ -186,18 +186,7 @@
       <div class="">
         <img src="storage/{{$datoproyecto2->url_img}}" class="gallery-item" alt="gallery">
       </div>
-      <div class="">
-        <img src="storage/{{$datoproyecto3->url_img}}" class="gallery-item" alt="gallery">
-      </div>
-      <div class="">
-        <img src="storage/{{$datoproyecto4->url_img}}" class="gallery-item" alt="gallery">
-      </div>
-      <div class="">
-        <img src="storage/{{$datoproyecto5->url_img}}" class="gallery-item" alt="gallery">
-      </div>
-      <div class="">
-        <img src="storage/{{$datoproyecto6->url_img}}" class="gallery-item" alt="gallery">
-      </div>
+     
     </div>
     <br>
     <br>
