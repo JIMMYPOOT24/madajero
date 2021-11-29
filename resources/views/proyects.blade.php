@@ -56,12 +56,11 @@
   
    <!-- Carousel proyectos -->
    
-   <section class="gallery min-vh-100">
+   <section class="gallery min-vh-100 p-0">
     <div class="container-lg"> 
-      
        @foreach ($datostbproyecto  as $proyectos)
        <div class="container text-center">
-        <div class="row justify-content-start">
+        <div class="row gy-4 justify-content-start">
           <div class="titulo">
             <br>
             <span class="divider"></span>
