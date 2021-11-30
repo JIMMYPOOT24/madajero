@@ -15,7 +15,8 @@
 <section class="banner-image">
   <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="content text-center">
-      <h1 class="text-white text-2xl-center fw-bolder">Servicios</h1>
+      <h1 class="text-white text-2xl-center fw-bolder text-end">SERVICIOS</h1>
+      
     </div>
   </div>
 </section>
