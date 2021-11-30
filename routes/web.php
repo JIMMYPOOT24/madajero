@@ -14,6 +14,7 @@ use App\Http\Controllers\tbclientesController;
 use App\Http\Controllers\tbproyectosController;
 use App\Http\Controllers\tbserviciosController;
 use App\Models\serviciosModel;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,6 +29,9 @@ use App\Models\serviciosModel;
 
 // Ruta del controlador para los cruds de las vistas 
 /* Route::resource('dashboard/datosinicio', inicioController::class); */
+
+
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dash.index');
