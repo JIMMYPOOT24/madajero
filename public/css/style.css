@@ -336,8 +336,9 @@ text-align: center;
   
   /*-- Services list--*/
     .services .icon-box {
+      justify-content:center;
       margin-bottom: 20px;
-      padding: 30px;
+      padding: 20px;
       border-radius: 6px;
       transition: 0.3s;
     }
@@ -348,6 +349,7 @@ text-align: center;
       margin-right: 15px; 
     }
     .services .icon-box:hover {
+     
       background: #e9e9e9;
     }
     
