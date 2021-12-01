@@ -15,7 +15,8 @@
 <section class="banner-image">
   <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="content text-center">
-      <h1 class="text-white text-2xl-center fw-bolder">Servicios</h1>
+      <h1 class="text-white text-2xl-center fw-bolder text-end">SERVICIOS</h1>
+      
     </div>
   </div>
 </section>
@@ -37,12 +38,11 @@
   <div class="container" data-aos="fade-up">
 
    
-  <div class="row">
+  <div class="row text-justify" data-aos="fade-up">
     @foreach ( $datotbservicio as $servicios)
     <div class="col-md-6">
-      <div class="icon-box" data-aos="fade-up">
+      <div class="container text-justify icon-box" data-aos="fade-up">
         <i class="bi bi-bar-chart"></i>
-        
         <img src="storage/{{$servicios->url_img}}" alt="icono-proyectos-ejecutivos ">
         <h4 class="container">{{$servicios->categoria}}</h4>
         <ul>
