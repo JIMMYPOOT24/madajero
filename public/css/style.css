@@ -203,7 +203,7 @@ text-align: center;
 
  /* clientes-home */
 .clientes-h{
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;

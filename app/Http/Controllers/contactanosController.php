@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Mail\ContactanosMailable;
+use App\Models\inicioModel;
 use Illuminate\Support\Facades\Mail;
 
 class contactanosController extends Controller
@@ -15,7 +16,8 @@ class contactanosController extends Controller
      */
     public function index()
     {
-        return view ('contact');
+        $datosinicio = inicioModel::find(1);
+        return view ('contact', compact('datosinicio'));
     }
 
     /**

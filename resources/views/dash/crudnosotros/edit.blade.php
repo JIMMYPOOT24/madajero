@@ -13,7 +13,7 @@
     
     <div class="mb-4 mt-6">
 
-        <label for="img1_nosotros" class="form-label fw-bold text-primary">Imagen de fondo de Inicio:</label>
+        <label for="img1_nosotros" class="form-label fw-bold text-primary">Imagen de fondo de Nosotros:</label>
     <div class="container ml-1">
         <img src="{{ asset('storage'). '/' . $datonosotros->img1_nosotros}}"  width="500" height="500" class="imgcrud img-thumbnail"
             alt="Imagen del Banner Nosotros">
@@ -58,7 +58,7 @@
    
     <div class="mb-4 mt-6">
 
-        <label for="img2_nosotros" class="form-label fw-bold text-primary">Imagen de fondo de Inicio:</label>
+        <label for="img2_nosotros" class="form-label fw-bold text-primary">Imagen 2 Nosotros:</label>
     <div class="container ml-1">
         <img src="{{ asset('storage'). '/' . $datonosotros->img2_nosotros}}"  width="500" height="500" class="imgcrud img-thumbnail"
             alt="Imagen Descripcion">

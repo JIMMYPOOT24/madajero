@@ -246,7 +246,7 @@ return [
         [
             'text'        => 'Panel Administrador',
             'url'         => 'dashboard',
-            'icon'        => 'far fa-fw fa-file',
+            'icon'        => 'far fa-user-circle',
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],

@@ -178,25 +178,25 @@
     <br>
     <h1>Nuestros proyectos</h1>
   </div>
-  <div class="gallery min-vh-100 container-lg py-3">
+  <div class="gallery  container-lg py-3">
     <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
       <div class="">
-        <img src="storage/{{$datoproyecto1->url_img}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto1->url_img}}" class="gallery-item" alt="gallery "  style="display: none" onload="this.style.display=''" >
       </div>
       <div class="">
-        <img src="storage/{{$datoproyecto2->url_img2}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto2->url_img2}}" class="gallery-item" alt="gallery"  style="display: none" onload="this.style.display=''" >
       </div>
       <div class="">
-        <img src="storage/{{$datoproyecto2->url_img3}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto2->url_img3}}" class="gallery-item" alt="gallery"  style="display: none" onload="this.style.display=''" >
       </div>
       <div class="">
-        <img src="storage/{{$datoproyecto2->url_img4}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto2->url_img4}}" class="gallery-item" alt="gallery"  style="display: none" onload="this.style.display=''" >
       </div>
       <div class="">
-        <img src="storage/{{$datoproyecto2->url_img5}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto2->url_img5}}" class="gallery-item" alt="gallery"  style="display: none" onload="this.style.display=''" >
       </div>
       <div class="">
-        <img src="storage/{{$datoproyecto2->url_img6}}" class="gallery-item" alt="gallery">
+        <img src="storage/{{$datoproyecto2->url_img6}}" class="gallery-item" alt="gallery"  style="display: none" onload="this.style.display=''" >
       </div>
     
     </div>
@@ -214,7 +214,7 @@
 <!-- Clientes  -->
 
 <section id="clientes-home" class="titulo subtitulo">
-  <div class="container">
+  <div class="container p-0">
     <div class="text-clientes p-3 text-center">
       <h1>Nuestros clientes</h1>
     </div>
@@ -225,7 +225,7 @@
       
       <table class="col-lg-2 col-md-4 col-xs-8 mb-4 @if ($loop->index==0) active @endif ">
         <tr>
-          <td><img src="storage/{{$item->logo}}" alt="logo cliente" ></td>
+          <td><img src="storage/{{$item->logo}}" alt="logo cliente"  style="display: none" onload="this.style.display=''" ></td>
         </tr>
       </table>
 

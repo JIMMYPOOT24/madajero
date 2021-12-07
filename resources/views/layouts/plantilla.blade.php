@@ -84,7 +84,7 @@
 
 
   <!-- Boton de whatsapp -->
-  <a href="https://api.whatsapp.com/send?phone=9832299070&text=Hola%20me%20interesa%20mas%20informacion%20sobre%20sus%20servicios%20que%20ofrecen" class="float" target="_blank">
+  <a href="https://api.whatsapp.com/send?phone={{$datosinicio->telefono}}&text=Hola%20me%20interesa%20mas%20informacion%20sobre%20sus%20servicios%20que%20ofrecen" class="float" target="_blank">
   <i class="fa fa-whatsapp my-float"></i>
   </a>
       @yield('contenido')
@@ -123,11 +123,11 @@
         <!-- Contáctanos y redes sociales -->
         <ul class="col-8 col-md-3 list-unstyled">
           <h5 class="font-weight-bold ">Contáctanos</h5>
-          <li></i><a class="text-reset">983-100-1010</a> <i class="fas fa-phone-alt"></i></li>
-          <li></i><a href="{{route('contactanos')}}" class="text-reset">Correo@ejemplo.com</a> <i class="far fa-envelope"></i></li>
+          <li></i><a class="text-reset">{{$datosinicio->telefono}}</a> <i class="fas fa-phone-alt"></i></li>
+          <li></i><a href="{{route('contactanos')}}" class="text-reset">{{$datosinicio->correo}}</a></i></li>
           <li class="iconos d-flex py-3">
             <!-- Facebook -->
-            <a href= https://www.facebook.com/ target="_blank" class="text-reset"><i class="fab fa-facebook"></i></a>
+            <a href=  https://web.facebook.com/GrupoConstructorMadajero target="_blank" class="text-reset"><i class="fab fa-facebook"></i>Grupo Constructor Madajero</a>
           </li>
         </ul>
       </nav>
