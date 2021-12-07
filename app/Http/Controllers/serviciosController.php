@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\inicioModel;
 use App\Models\mtablaservicio;
 use App\Models\serviciosModel;
 use Illuminate\Http\Request;
@@ -17,10 +18,10 @@ class serviciosController extends Controller
      */
     public function index()
     {
-
+        $datosinicio = inicioModel::find(1);
         $datoservicio = serviciosModel::find(1);
         $datotbservicio = mtablaservicio::paginate();
-        return view ('services', compact('datoservicio', 'datotbservicio'));
+        return view ('services', compact('datoservicio', 'datotbservicio','datosinicio'));
     }
 
     /**
