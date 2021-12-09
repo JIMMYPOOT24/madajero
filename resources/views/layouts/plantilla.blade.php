@@ -97,8 +97,8 @@
       }
     </STYLE>
     <div class="footer-links container">
-      <nav class=" container row justify-content-center">
-        <!-- Logo -->
+      <nav class="row justify-content-between">
+                <!-- Logo -->
         <a href="{{route('index')}}" class="col-12 col-md-3   text-reset d-flex align-items-center justify-content-center mb-5 mb-md-0">
           <img src="/img/logos/logo-color1.png" alt="logo madajero" class="img-logo mr-2" height="155">
 
@@ -123,9 +123,8 @@
         <!-- Contáctanos y redes sociales -->
         <ul class="col-8 col-md-3 list-unstyled">
           <h5 class="font-weight-bold ">Contáctanos</h5>
-          <li class=""></i><a class="text-reset">{{$datosinicio->telefono}}</a> <i class="fas fa-phone-alt"></i></li>
-          <li><a href="{{route('contactanos')}}" class="text-reset"><h6 class="text-justify">{{$datosinicio->correo}}</h6></a></i>
-          <li class="iconos d-flex py-3">
+          <li> <a class="text-reset">{{$datosinicio->telefono}}</a> <i class="fas fa-phone-alt"></i></li>
+          <li class="white-space:initial "> <a href="{{route('contactanos')}}" class="text-reset">{{$datosinicio->correo}}</a></li> <li class="iconos d-flex py-3">
             <!-- Facebook -->
             <a href=  https://web.facebook.com/GrupoConstructorMadajero target="_blank" class="text-reset"><i class="fab fa-facebook"></i>Grupo Constructor Madajero</a>
          

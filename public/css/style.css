@@ -265,10 +265,9 @@ text-align: center;
    
     /***   nosotros mision y vision  ***/
     .caja {
-      min-height: 470px; 
+      min-height: 450px; 
       color: #ffffff; 
-      font-size: 20px; 
-      text-align: center; 
+      font-size: 18px; 
       background: #996633; 
       margin: 0 0 25px; 
       overflow: hidden; 
