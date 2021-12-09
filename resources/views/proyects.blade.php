@@ -56,13 +56,13 @@
   
    <!-- Carousel proyectos -->
    
-   <section class="gallery text-center p-0">
+   <section class="gallery text-center p-0 ">
     @foreach ($datostbproyecto  as $proyectos)
     <div class="titulo">
       <br>
       <span class="divider"></span>
       <h1 class="lines-effect fs-1">{{$proyectos->titulo}}</h1> </div>
-    <div class="container p-0">
+    <div class="container p-0 d-flex justify-content-center">
       <div class="row p-1 gx-2">
         <div class="col-sm">
           <img src="storage/{{$proyectos->url_img}}" class="gallery-item"  alt="gallery" style="display: none" onload="this.style.display=''" > 

@@ -21,7 +21,7 @@
   </div>
 </section>
 
-<section class="contact-us" id="contact">
+<section class="contact-us d-flex justify-content-center" id="contact">
   <div class="container">
        
       <!-- Contact Form -->
@@ -34,15 +34,15 @@
           <div class="row g-4 texto-mensaje">
             <div class="col-12 col-md-6 ">
               <div class="form-group cajadist">
-                <h1>Nombre y Apellido</h1>
+                <h1 class="text-center">Nombre y Apellido</h1>
                 <input type="text" placeholder="Nombre Completo" class="form-control cotact-caja" name="name" id="name">
               </div>    
               <div class="form-group cajadist">
-                <h1>Correo Eléctronico</h1>
+                <h1 class="text-center">Correo Eléctronico</h1>
                 <input type="email" placeholder="Correo Eléctronico" class="form-control" name="email" id="email">
               </div>     
               <div class="form-group cajadist">
-                <h1>Número de contacto</h1>
+                <h1 class="text-center">Número de contacto</h1>
                 <input type="text" placeholder="Número de Teléfono" class="form-control" name="number" id="number">
               </div>
             </div>

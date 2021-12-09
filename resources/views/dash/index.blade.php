@@ -9,8 +9,8 @@
 @section('content')
     <p>Bienvendio a su panel de Administrador</p>
 
-<div class="container">
-    <div class="card">
+<div class="container  justify-content-center">
+    <div class="carddash ">
         <a href="{{route('datosinicio.edit', 1 )}}">
           <div class="cardheader iconcolor1">
             <img src="img/iconos/home.png" alt="icon_camera">
@@ -27,7 +27,7 @@
         </a>
       </div>
       
-      <div class="card">
+      <div class="carddash ">
         <a href="{{route('datosnosotros.edit', 1 )}}">
           <div class="cardheader iconcolor2">
             <img src="img/iconos/about.png" alt="icon_camera">
@@ -43,7 +43,7 @@
           </div>
         </a>
       </div>
-      <div class="card">
+      <div class="carddash ">
         <a href="{{route('datosservicios.edit',1 )}}">
           <div class="cardheader iconcolor3">
             <img src="img/iconos/service.png" alt="icon_camera">
@@ -59,7 +59,7 @@
           </div>
         </a>
       </div>
-      <div class="card">
+      <div class="carddash ">
         <a href="{{route('datosproyectos.edit', 1 )}}">
           <div class="cardheader iconcolor4">
             <img src="img/iconos/project.png" alt="icon_camera">
