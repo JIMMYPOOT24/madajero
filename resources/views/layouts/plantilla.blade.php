@@ -33,16 +33,18 @@
 
     <!-- Navbar  -->
     <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
-      <div class="container">
-        <a class="navbar-brand" href="{{route('index')}}">
+      <div class="container ">
+        <div class="logonav">
+         <a class="navbar-brand" href="{{route('index')}}">
           <img src="img/logos/logo-white-3.png" alt="logo-white" width="220">
-        </a>
+         </a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-      <div class="text-center collapse navbar-collapse " id="navbarNav">
+       <div class="text-center collapse navbar-collapse " id="navbarNav">
         <div class="mx-auto">    </div>
         <ul class="navbar-nav">
           <li class="nav-item ">
@@ -84,58 +86,75 @@
 
 
   <!-- Boton de whatsapp -->
-  <a href="https://api.whatsapp.com/send?phone={{$datosinicio->telefono}}&text=Hola%20me%20interesa%20mas%20informacion%20sobre%20sus%20servicios%20que%20ofrecen" class="float" target="_blank">
+  <a href="https://api.whatsapp.com/send?phone=+52{{$datosinicio->telefono}}&text=Hola%20me%20interesa%20mas%20informacion%20sobre%20sus%20servicios%20que%20ofrecen" class="float" target="_blank">
   <i class="fa fa-whatsapp my-float"></i>
   </a>
       @yield('contenido')
      
       <!-- Footer -->
-  <footer class="py-4 ">
-    <STYLE>
-      A {
-        text-decoration: none;
-      }
-    </STYLE>
-    <div class="footer-links container">
-      <nav class="row justify-content-between">
-                <!-- Logo -->
-        <a href="{{route('index')}}" class="col-12 col-md-3   text-reset d-flex align-items-center justify-content-center mb-5 mb-md-0">
-          <img src="/img/logos/logo-color1.png" alt="logo madajero" class="img-logo mr-2" height="155">
-
-        </a>
-        <!-- menu 1 -->
-        <ul class="col-8 col-md-3 list-unstyled">
-          <h5 class="font-weight-bold ">Quienes somos</h5>
-          <li><a href="{{route('index')}}" class="text-reset">Inicio</a></li>
-          <li><a href="{{route('nosotros')}}" class="text-reset">Nosotros</a></li>
-          <li><a href="{{route('servicios')}}" class="text-reset">Servicios</a></li>
-          <li><a href="{{route('proyectos')}}" class="text-reset">Proyectos</a></li>
-          <li><a href="{{route('contactanos')}}" class="text-reset">Contáctanos</a></li>
-        </ul>
-        <!-- menu 2 -->
-        <ul class="col-8 col-md-3  list-unstyled">
-          <h5 class="font-weight-bold ">Servicios</h5>
-          <li><a href="{{route('servicios')}}" class="text-reset">Elaboración de proyectos ejecutivos</a></li>
-          <li><a href="{{route('servicios')}}"class="text-reset">Integración y planeación de proyectos</a></li>
-          <li><a href="{{route('servicios')}}" class="text-reset">Coordinación y supervisión de obras</a></li>
-          <li><a href="{{route('servicios')}}" class="text-reset">Ejecución de obras</a></li>
-        </ul>
-        <!-- Contáctanos y redes sociales -->
-        <ul class="col-8 col-md-3 list-unstyled">
-          <h5 class="font-weight-bold ">Contáctanos</h5>
-          <li> <a class="text-reset">{{$datosinicio->telefono}}</a> <i class="fas fa-phone-alt"></i></li>
-          <li class="white-space:initial "> <a href="{{route('contactanos')}}" class="text-reset">{{$datosinicio->correo}}</a></li> <li class="iconos d-flex py-3">
-            <!-- Facebook -->
-            <a href=  https://web.facebook.com/GrupoConstructorMadajero target="_blank" class="text-reset"><i class="fab fa-facebook"></i>Grupo Constructor Madajero</a>
-         
-          </li>
-        </ul>
-      </nav>
+  <footer class=" pt-5">
+    <div class="container text-right text-md-left pl-0">
+      <div class="container text-justify">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col-md-3 text-center">
+            <a href="{{route('index')}}">
+              <img src="/img/logos/logo-color1.png" alt="logo madajero" class="img-logo" height="155">
+            </a>
+          </div>
+          
+          <div class="col-md-2">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Quienes somos</h5>
+          <p>
+            <a href="{{route('index')}}" class="link-dark " style="text-decoration: none;">Inicio</a>
+          </p>
+          <p>
+            <a href="{{route('nosotros')}}" class="link-dark" style="text-decoration: none;">Nosotros</a>
+          </p>
+          <p>
+            <a href="{{route('servicios')}}" class="link-dark" style="text-decoration: none;">Servicios</a>
+          </p>
+          <p>
+            <a href="{{route('proyectos')}}" class="link-dark" style="text-decoration: none;">Proyectos</a>
+          </p>
+          <p>
+            <a href="{{route('contactanos')}}" class="link-dark" style="text-decoration: none;">Contáctanos</a>
+          </p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">Servicios</h5>
+          <p>
+            <a href="{{route('servicios')}}" class="link-dark " style="text-decoration: none;">Elaboración de proyectos ejecutivos</a>
+          </p>
+          <p>
+            <a href="{{route('servicios')}}" class="link-dark " style="text-decoration: none;">Integración y planeación de proyectos</a>
+          </p>
+          <p>
+            <a href="{{route('servicios')}}" class="link-dark " style="text-decoration: none;">Coordinación y supervisión de obras</a>
+          </p>
+          <p>
+            <a href="{{route('servicios')}}" class="link-dark " style="text-decoration: none;">Ejecución de obras</a>
+          </p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Contácto</h5>
+            <p>
+              <i class="fas fa-phone-alt"></i> {{$datosinicio->telefono}}
+            </p>
+            <p class="reducir">
+              <i class="fas fa-envelope"></i> {{$datosinicio->correo}}
+            </p>
+            <p>
+              <a href= "https://www.facebook.com/GrupoConstructorMadajero/" target="_blank" class="link-dark"  style="text-decoration: none;"><i class="fab fa-facebook"></i> Grupo Constructor Madajero</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+
   </footer>
  <!-- footer Copyright -->
  <div class="footer-copyright text-center py-3">
-  © 2020 Copyright todos los derechos reservados
+  © 2022 Copyright todos los derechos reservados
 </div>
 
 </body>

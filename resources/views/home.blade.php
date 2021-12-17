@@ -15,6 +15,7 @@
 
   <!-- Banner Image heroes  -->
   <section id="banner-image" class="banner-image">
+    
     <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
       <div class="content text-center ">
         <h1>{{$datosinicio->slogan}} </h1>
@@ -23,7 +24,7 @@
   </section>
 
     <!-- Banner text  -->
-
+<div class="container">
     <section id="banner-text" class="banner-text ">
       <div class="p-5 mb-4 ">
         <div class="row">
@@ -40,14 +41,14 @@
   
         </div>
       </section>
-
+    </div>
 
 <!-- Banner text  -->
 
 <!-- Seccion de servicios  -->
 
 <section id="servicios-home" class="d-flex titulo parrafo fondoGriss">
-  <div class="container centrarob">
+  <div class="container text-center">
     <div class="container">
       <div class="">
         <h1>Servicios</h1>
@@ -132,54 +133,54 @@
 </section>
 <!-- Nosotros  -->
 <section id="contador" class="contador-home">
-  <div class="container centrarCounter">
-    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+  <div class="container p-5 mb-4">
+    <div class="row gy-2 row-cols-1 row-cols-sm-2 row-cols-md-3">
 
       <!-- primer contador-->
-      <div >
+      <div class="container">
         <div class="counters-item">
           <i class="tf-ion-ios-alarm-outline"></i>
-          <div>
+          <div class="text-center">
             <span class="counter" data-count="{{$datosinicio->dato_fecha}}">100</span>
           </div>
-          <h3>Año de<br>establecimiento</h3>
+          <h3 class="text-center">Año de<br>establecimiento</h3>
         </div>
       </div>
 
       <!-- segundo item -->
-      <div>
+      <div class="container">
         <div class="counters-item">
           <i class="tf-ion-ios-analytics-outline"></i>
-          <div>
+          <div class="text-center">
             <span class="counter" data-count="{{$datosinicio->dato_proyectos}}">100</span>
           </div>
-          <h3>Proyectos<br>completados</h3>
+          <h3 class="text-center">Proyectos<br>completados</h3>
         </div>
       </div>
-
       <!-- tercer item -->
-      <div>
+      <div class="container">
         <div class="counters-item">
           <i class="tf-ion-ios-compose-outline"></i>
-          <div>
+          <div class="text-center">
             <span class="counter" data-count="{{$datosinicio->dato_construccion}}">100</span>
           </div>
-          <h3>Costrucciones<br>concretadas</h3>
+          <h3 class="text-center">Costrucciones<br>concretadas</h3>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
 <!-- Proyectos  -->
-<section id="proyectos-home" class="titulo subtitulo fondoGriss">
-  <div class="text-proyectos p-3 text-center">
-    <br>
-    <h1>Nuestros proyectos</h1>
-  </div>
-  <div class="gallery  container-lg py-3">
-    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+
+  <section id="proyectos-home" class="titulo subtitulo fondoGriss">
+    <div class="container">
+      <div class="text-proyectos text-center">
+      <br>
+      <h1>Nuestros proyectos</h1>
+      </div>
+      <div class="gallery  container-lg ">
+     <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
       <div class="">
         <img src="storage/{{$datoproyecto1->url_img}}" class="gallery-item" alt="gallery "  style="display: none" onload="this.style.display=''" >
       </div>
@@ -202,6 +203,7 @@
     </div>
     <br>
     <br>
+  </div>
     <div class="aliboton">
       <a class="btn btn-main" href="{{url('proyectos')}}">Saber más</a>
     </div>

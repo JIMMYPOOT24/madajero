@@ -15,8 +15,7 @@
 <section class="banner-image">
   <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="content text-center">
-      <h1 class="text-white text-2xl-center fw-bolder text-end">SERVICIOS</h1>
-      
+      <h1 class="text-white text-xl-center">Servicios</h1>
     </div>
   </div>
 </section>
@@ -26,7 +25,7 @@
     <div class=" p-5 mb-4 ">
         <div class="container-fluid py-3">
         <h3 class="display-6 fw-bold ">Nuestros servicios </h3>
-        <p class="col-md-10 fs-4">{{$datoservicio->txt_servicios}}</p>
+        <p class="col-md-10 fs-4">{{$datoservicio->txt_nosotros}}</p>
        </div>
     </div>
   </section>
@@ -38,21 +37,22 @@
   <div class="container" data-aos="fade-up">
 
    
-  <div class="row text-justify" data-aos="fade-up">
+  <div class="row">
     @foreach ( $datotbservicio as $servicios)
     <div class="col-md-6">
-      <div class="container text-justify icon-box" data-aos="fade-up">
+      <div class="icon-box" data-aos="fade-up">
         <i class="bi bi-bar-chart"></i>
+        
         <img src="storage/{{$servicios->url_img}}" alt="icono-proyectos-ejecutivos ">
-        <h4 class="container">{{$servicios->categoria}}</h4>
-        <ul>
+        <h4 class="categoria">{{$servicios->categoria}}</h4>
+        <ul style= "list-style-type: square">
           <br>
           <br>
           <p class="fs-5">{{$servicios->servicio1}}</p>
           <p class="fs-5">{{$servicios->servicio2}}</p>
           <p class="fs-5">{{$servicios->servicio3}}</p>
           <p class="fs-5">{{$servicios->servicio4}}</p>
-          <p class="fs-5">{{$servicios->servicio5}}</p></li>
+          <p class="fs-5">{{$servicios->servicio5}}</p>
         </ul>
         </div>
        

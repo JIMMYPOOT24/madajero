@@ -47,7 +47,7 @@
     <div class="mb-3 mt-4">
         <label for="curriculum" class="form-label fw-bold text-primary">Curriculum:</label>
      <br>
-        <img src="{{ asset('storage/iconos/pdf64px.png')}}" class="img-fluid img-thumbnail"
+        <img src="{{ url('img/iconos/archivo-pdf.png')}}" class="img-fluid img-thumbnail"
             alt="curriculum">
      <br>
      <br>
