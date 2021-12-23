@@ -19,6 +19,7 @@
             alt="Imagen del Banner Inicio">
         <div class="card-body" >
             <input type="file" value="" name="img1_inicio" id="img1_inicio">
+            
         </div>
     </div>
     <div class="mb-3 mt-2">
@@ -35,7 +36,7 @@
         <img src="{{ asset('storage'). '/' . $datoinicio->img2_inicio}}" class="card-img-top"
             alt="Imagen del Banner Inicio">
         <div class="card-body" >
-            <input type="file" value="" name="img2_inicio" id="img2_inicio">
+            <input type="file" value="" name="img2_inicio" id="img2_inicio" >
         </div>
     </div>
     
@@ -86,7 +87,8 @@
 
 @section('js')
 <script>
-    console.log('Hi!'); 
-</script>
+
+    </script>
+
 @stop
 
